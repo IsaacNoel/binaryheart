@@ -10,6 +10,7 @@ import {
     MDBContainer,
     MDBIcon
 } from 'mdb-react-ui-kit';
+import Link from "next/link"
 
 export default function Home() {
     return (
@@ -85,26 +86,28 @@ export default function Home() {
                         "background-color": "rgb(255, 240, 243)"
                     }}
                 >
-                    <h1>
-                        <center>We've done some cool stuff</center>
+                    <h1 style={{
+                        "text-align": "center"
+                    }}>
+                        We&apos;ve done some cool stuff
                     </h1>
                     <p className={styles.description}>
                         We have... donated to some cool places, including Kenya. Check out these pictures!
                         For our contributions, we won some cool awards too.
                     </p>
-                    <div class={styles.grid}>
+                    <div className={styles.grid}>
 
                         <img className={styles.scalingimage} src="/656348main_ToV_transit_diag_full.jpg" />
 
-                        <p class={styles.description}>
+                        <p className={styles.description}>
                             asdf
                         </p>
 
-                        <p class={styles.description}>
+                        <p className={styles.description}>
                             asdf
                         </p>
 
-                        <p class={styles.description}>
+                        <p className={styles.description}>
                             asdf
                         </p>
                     </div>
@@ -119,10 +122,11 @@ export default function Home() {
                         We lead our team, securing donations and reaching out to those in need. We own seventeen cats, 4 of whom are named Cindy.
                     </p>
                 </div>
-
-                <a href="/" className={styles.card}>
+                <Link href="/">
+                <a className={styles.card}>
                      <h2>Back to the launch page &rarr;</h2>
                  </a>
+                </Link>
             </main>
 
 
