@@ -98,7 +98,7 @@ export default function Home() {
                     <div className={styles.grid}>
 
                         <div className={styles.scalingimage}>
-                        <Image layout={"responsive"} height={"100%"} width={"100%"} src="/656348main_ToV_transit_diag_full.jpg" />
+                        <Image alt="Cool pic" layout={"responsive"} height={"100%"} width={"100%"} src="/656348main_ToV_transit_diag_full.jpg" />
                         </div>
                         <p className={styles.description}>
                             asdf
