@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from "next/link"
 import {
     MDBContainer,
     MDBIcon,
@@ -74,7 +75,7 @@ export default function Home() {
                     students, and change lives.
                 </p>       
                 <h1 className = {styles.title}>
-                    We've done some cool stuff
+                    We&apos;ve done some cool stuff
                 </h1>
                 <p className={styles.description}>
                     We have... donated to some cool places, including Kenya. Check out these pictures!
@@ -92,10 +93,12 @@ export default function Home() {
                 <p className={styles.description}>
                     We lead our team, securing donations and reaching out to those in need. We own seventeen cats, 4 of whom are named Cindy.
                 </p>
+                <Link href="/">
+                    <a className={styles.card}>
+                        <h2>Back to the launch page &rarr;</h2>
+                    </a>
+                </Link>
 
-                <a href="/" className={styles.card}>
-                    <h2>Back to the launch page &rarr;</h2>
-                </a>
             </main>
 
 

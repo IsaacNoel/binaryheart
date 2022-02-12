@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -23,26 +24,29 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/products" className={styles.card}>
-            <h2>Availabe Pruducts &rarr;</h2>
-            <p>See the solutions we have to offer!</p>
-          </a>
+          <Link href="/products">
+            <a className={styles.card}>
+              <h2>Availabe Pruducts &rarr;</h2>
+              <p>See the solutions we have to offer!</p>
+            </a>
+          </Link>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <Link href="https://nextjs.org/learn">
+          <a className={styles.card}>
             <h2>Press &rarr;</h2>
             <p>See our press coverage in the news</p>
           </a>
+          </Link>
 
-          <a
-            href="/about"
-            className={styles.card}
-          >
+          <Link href="/about">
+          <a className={styles.card}>
             <h2>About Us &rarr;</h2>
-            <p>See our mission, what we've done, and who we are</p>
+            <p>See our mission, what we&aspos;ve done, and who we are</p>
           </a>
+        </Link>
 
+        <Link href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app">
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
             <h2>Contact Us &rarr;</h2>
@@ -50,6 +54,7 @@ export default function Home() {
               Want to donate or recieve old technology? Get in contact!
             </p>
           </a>
+        </Link>
         </div>
       </main>
 
