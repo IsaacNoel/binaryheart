@@ -45,7 +45,7 @@ export default function Home() {
           </a>
         </Link>
 
-        <Link href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app">
+        <Link href="/contact">
           <a
             className={styles.card}
           >
