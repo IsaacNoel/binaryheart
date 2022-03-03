@@ -66,7 +66,6 @@
   text-align: left;
 
 }
-
 .description a {
   color: #0070f3;
   text-decoration: none;
@@ -76,6 +75,16 @@
 .description a:focus,
 .description a:active {
   text-decoration: underline;
+}
+
+.indexdescription {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  text-align: left;
+
 }
 
 .code {
@@ -158,9 +167,32 @@
 
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+@media (max-width: 700px) {
+  .description {
+    margin: 4rem 0;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+  }
+  .static_card {
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid #193961;
+    background-color:#e7f2ff;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+  .indexdescription {
+    margin: 4rem 0;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 1rem;
+    text-align: left;
+
   }
 }
