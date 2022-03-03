@@ -17,7 +17,7 @@ export default function Home() {
           Welcome to <font color = "#ff0040">Binary</font><font color = "#193961">Heart</font>!
         </h1>
       
-        <p className={styles.description}>
+        <p className={styles.indexdescription}>
           BinaryHeart is an after-school nonprofit that repairs donated technology and re-donates those devices to low-income schools
           
           
@@ -31,7 +31,7 @@ export default function Home() {
             </a>
           </Link>
 
-          <Link href="https://nextjs.org/learn">
+          <Link href="/press">
           <a className={styles.card}>
             <h2>Press &rarr;</h2>
             <p>See our press coverage in the news</p>

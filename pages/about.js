@@ -67,6 +67,8 @@ export default function Home() {
                     About Us
                 </h2>
 
+
+
                 <p className={styles.description}>
                     BinaryHeart is a student organization whose objective
                     is to <code className={styles.code}>spread Digital
