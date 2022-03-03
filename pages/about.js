@@ -115,35 +115,72 @@ export default function Home() {
                         <center>Student Leaders</center>
                     </h1>
 
-                    <p className={styles.description}>
-                        <b> Maryanne Xu</b>
-                         <p>Hi everyone! I’m a senior at New Trier High School.
-                            I volunteered for BinaryHeart for four years.
-                            During club meetings, I allocate tasks, run club logistics, and work on this website!
-                             I can hold my breath for 2 hours.</p>
-                        <b> Nicholas Sutherland</b>
-                        <p> Howdy! I’m Nicholas, a senior at New Trier High School,
-                            and this is my third year at BinaryHeart. I usually end up building shelves,
-                            organizing screwdrivers, and working on our workspace during club.
-                            Oh yeah, and I invented the microwave burrito.
-                            .</p>
-                        <b> Rom Fradkin</b>
-                        <p> Rom Fradkin (5’ 9’’, 150lbs) is a senior at New Trier High School.
-                            He’s volunteered for BinaryHeart since freshman year. He owns four cows.
-                            .</p>
-                        <b> Julia Hudson </b>
-                        <p> Hey! I’m Julia, a sophomore at New Trier High School.
-                            I’ve volunteered for BinaryHeart for two years now.
-                            When not fixing computers, I work on our website,
-                            manage our inventory system, and have plans for chapter expansion.
-                            .</p>
-                        <b> Andrew Gill </b>
-                        <p> Hello, I’m Andrew! :) I’m a senior at New Trier High School,
-                            and I’ve been in the club since my sophomore year.
-                            I’m usually in charge of organization, whether on the task sheet or
-                            in the closet I spent an entire year setting up.
-                            By the way, I’ve been to the North Pole!
-                            .</p>
+                    <p className={styles.description}
+                      
+                    >
+                        <table>
+                            <tr>
+                                <td width="25%">
+                                    <p> photo </p>
+                                </td>
+                                <td>
+                                    <b> Maryanne Xu </b>
+                                    <p> Hi everyone! I’m a senior at New Trier High School.
+                                        I volunteered for BinaryHeart for four years.
+                                        During club meetings, I allocate tasks, run club logistics, and work on this website!
+                                        I can hold my breath for 2 hours.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="25%">
+                                    <p> photo </p>
+                                </td>
+                                <td>
+                                    <b> Nicholas Sutherland </b>
+                                    <p>Howdy! I’m Nicholas, a senior at New Trier High School,
+                                        and this is my third year at BinaryHeart. I usually end up building shelves,
+                                        organizing screwdrivers, and working on our workspace during club.
+                                        Oh yeah, and I invented the microwave burrito.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="25%">
+                                    <p> photo </p>
+                                </td>
+                                <td>
+                                    <b> Rom Fradkin </b>
+                                    <p>Rom Fradkin (5’ 9’’, 150lbs) is a senior at New Trier High School.
+                                        He’s volunteered for BinaryHeart since freshman year. He owns four cows.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="25%">
+                                    <p> photo </p>
+                                </td>
+                                <td>
+                                    <b> Julia Hudson  </b>
+                                    <p>Hey! I’m Julia, a sophomore at New Trier High School.
+                                        I’ve volunteered for BinaryHeart for two years now.
+                                        When not fixing computers, I work on our website,
+                                        manage our inventory system, and have plans for chapter expansion.
+                                        .</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="25%">
+                                    <p> photo </p>
+                                </td>
+                                <td>
+                                    <b> Andrew Gill </b>
+                                    <p>Hello, I’m Andrew! :) I’m a senior at New Trier High School,
+                                        and I’ve been in the club since my sophomore year.
+                                        I’m usually in charge of organization, whether on the task sheet or
+                                        in the closet I spent an entire year setting up.
+                                        By the way, I’ve been to the North Pole!
+                                        .</p>
+                                </td>
+                            </tr>
+                        </table>
                     </p>
                 </div>
 

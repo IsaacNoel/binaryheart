@@ -18,7 +18,8 @@ export default function Home() {
         </h1>
       
         <p className={styles.description}>
-          BinaryHeart is an after-school nonprofit that repairs donated technology and re-donates those devices to low-income schools
+          BinaryHeart is an after-school nonprofit that repairs donated technology and re-donates those devices to low-income schools.
+          If you are a New Trier student, <a href="/involved"> get involved here</a>!
           
           
         </p>
@@ -31,7 +32,7 @@ export default function Home() {
             </a>
           </Link>
 
-          <Link href="https://nextjs.org/learn">
+          <Link href="/press">
           <a className={styles.card}>
             <h2>Press &rarr;</h2>
             <p>See our press coverage in the news</p>
