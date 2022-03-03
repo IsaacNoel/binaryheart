@@ -10,7 +10,6 @@ import {
     MDBContainer,
     MDBIcon
 } from 'mdb-react-ui-kit';
-import Link from "next/link"
 
 export default function Home() {
     return (
@@ -64,7 +63,7 @@ export default function Home() {
                 
                     
                 <h2 className={styles.semititle}>
-                    Hi!
+                    About Us
                 </h2>
 
                 <p className={styles.description}>
@@ -86,29 +85,26 @@ export default function Home() {
                         "background-color": "rgb(255, 240, 243)"
                     }}
                 >
-                    <h1 style={{
-                        "text-align": "center"
-                    }}>
-                        We&apos;ve done some cool stuff
+                    <h1>
+                        <center>We've done some cool stuff</center>
                     </h1>
                     <p className={styles.description}>
                         We have... donated to some cool places, including Kenya. Check out these pictures!
                         For our contributions, we won some cool awards too.
                     </p>
-                    <div className={styles.grid}>
+                    <div class={styles.grid}>
 
-                        <div className={styles.scalingimage}>
-                        <Image alt="Cool pic" layout={"responsive"} height={"100%"} width={"100%"} src="/656348main_ToV_transit_diag_full.jpg" />
-                        </div>
-                        <p className={styles.description}>
+                        <img className={styles.scalingimage} src="/656348main_ToV_transit_diag_full.jpg" />
+
+                        <p class={styles.description}>
                             asdf
                         </p>
 
-                        <p className={styles.description}>
+                        <p class={styles.description}>
                             asdf
                         </p>
 
-                        <p className={styles.description}>
+                        <p class={styles.description}>
                             asdf
                         </p>
                     </div>
@@ -116,24 +112,48 @@ export default function Home() {
                
                 <div className ={styles.static_card}>
                     <h1>
-                        <center>Student leaders</center>
+                        <center>Student Leaders</center>
                     </h1>
 
                     <p className={styles.description}>
-                        We lead our team, securing donations and reaching out to those in need. We own seventeen cats, 4 of whom are named Cindy.
+                        <b> Maryanne Xu</b>
+                         <p>Hi everyone! I’m a senior at New Trier High School.
+                            I volunteered for BinaryHeart for four years.
+                            During club meetings, I allocate tasks, run club logistics, and work on this website!
+                             I can hold my breath for 2 hours.</p>
+                        <b> Nicholas Sutherland</b>
+                        <p> Howdy! I’m Nicholas, a senior at New Trier High School,
+                            and this is my third year at BinaryHeart. I usually end up building shelves,
+                            organizing screwdrivers, and working on our workspace during club.
+                            Oh yeah, and I invented the microwave burrito.
+                            .</p>
+                        <b> Rom Fradkin</b>
+                        <p> Rom Fradkin (5’ 9’’, 150lbs) is a senior at New Trier High School.
+                            He’s volunteered for BinaryHeart since freshman year. He owns four cows.
+                            .</p>
+                        <b> Julia Hudson </b>
+                        <p> Hey! I’m Julia, a sophomore at New Trier High School.
+                            I’ve volunteered for BinaryHeart for two years now.
+                            When not fixing computers, I work on our website,
+                            manage our inventory system, and have plans for chapter expansion.
+                            .</p>
+                        <b> Andrew Gill </b>
+                        <p> Hello, I’m Andrew! :) I’m a senior at New Trier High School,
+                            and I’ve been in the club since my sophomore year.
+                            I’m usually in charge of organization, whether on the task sheet or
+                            in the closet I spent an entire year setting up.
+                            By the way, I’ve been to the North Pole!
+                            .</p>
                     </p>
                 </div>
-                <Link href="/">
-                <a className={styles.card}>
+
+                <a href="/" className={styles.card}>
                      <h2>Back to the launch page &rarr;</h2>
                  </a>
-                </Link>
             </main>
 
 
-            <footer className={styles.footer}>
 
-            </footer>
         </div>
     )
 }
