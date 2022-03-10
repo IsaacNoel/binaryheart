@@ -115,6 +115,10 @@
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
+.static_card a{
+  color: dodgerblue;
+}
+
 .card {
   margin: 1rem;
   padding: 1.5rem;
