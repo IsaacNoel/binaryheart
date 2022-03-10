@@ -85,7 +85,7 @@ export default function Home() {
                         <center>Press Inquiries</center>
                     </h3>
                     <p className={styles.description}>
-                        If you're a member of the press, please email us at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org</a>.
+                        If you&lsquo;re a member of the press, please email us at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org</a>.
                     </p>
 
                 </div>
