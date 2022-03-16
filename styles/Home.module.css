@@ -166,8 +166,10 @@
 .scalingimage {
   max-height: inherit;
   max-width: inherit;
+  margin: auto;
+  display: block;
+  width: 90%
 
-  width: 45%
 
 }
 
