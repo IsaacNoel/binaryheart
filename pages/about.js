@@ -141,7 +141,7 @@ export default function Home() {
                         <table>
                             <tr>
                                 <td width="25%">
-                                    <img className={styles.scalingimage} src="/Maryanne.jpg" />
+                                    <img className={styles.scalingimage} src="/maryanne.jpg" />
                                 </td>
                                 <td>
                                     <b> Maryanne Xu </b>
@@ -153,7 +153,7 @@ export default function Home() {
                             </tr>
                             <tr>
                                 <td width="25%">
-                                    <img className={styles.scalingimage} src="/Nicholas.jpg" />
+                                    <img className={styles.scalingimage} src="/nicholas.jpg" />
                                 </td>
                                 <td>
                                     <b> Nicholas Sutherland </b>
@@ -188,7 +188,7 @@ export default function Home() {
                             </tr>
                             <tr>
                                 <td width="25%">
-                                    <img className={styles.scalingimage} src="/Andrew.jpg" />
+                                    <img className={styles.scalingimage} src="/andrew.jpg" />
                                 </td>
                                 <td>
                                     <b> Andrew Gill </b>
