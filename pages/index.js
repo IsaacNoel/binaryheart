@@ -19,7 +19,7 @@ export default function Home() {
       
         <p className={styles.description}>
           BinaryHeart is an after-school nonprofit that repairs donated technology and re-donates those devices to low-income schools.
-          If you are a New Trier student, <a href="/involved"> get involved here</a>!
+          If you are a New Trier student, <Link href="/newmembers"> get involved here</Link>!
           
           
         </p>
@@ -28,7 +28,7 @@ export default function Home() {
           <Link href="/products">
             <a className={styles.card}>
               <h2>Availabe Pruducts &rarr;</h2>
-              <p>See the solutions we have to offer!</p>
+              <p>See the solutions we have to offer</p>
             </a>
           </Link>
 
@@ -52,7 +52,7 @@ export default function Home() {
           >
             <h2>Contact Us &rarr;</h2>
             <p>
-              Want to donate or recieve old technology? Get in contact!
+              Want to donate or receive old tech? Get in contact!
             </p>
           </a>
         </Link>
