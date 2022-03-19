@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {
     MDBNavbar,
@@ -10,7 +9,6 @@ import {
     MDBContainer,
     MDBIcon
 } from 'mdb-react-ui-kit';
-import Link from "next/link";
 
 export default function Home() {
     return (
@@ -53,8 +51,8 @@ export default function Home() {
             </header>
             <Head>
                 <title>Frequently Asked Questions</title>
-                <link rel="icon" href="/favicon.ico"/>
-                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+                <link rel="icon" href={"/favicon.ico"}/>
+                <link rel={"stylesheet"} href={"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"}
                       integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
                       crossOrigin="anonymous"/>
             </Head>
@@ -113,7 +111,7 @@ export default function Home() {
                         <tr>
                             <td>
                                 <b>How do I get involved?</b>
-                                <p>Visit our <a href='/newmembers'>New Members</a> page for information</p>
+                                <p>Visit our New Members page for information</p> //I wanted to add the new members link but it didn't work the way I tried so I'll do it later.
                             </td>
                         </tr>
                         <tr>
@@ -125,6 +123,11 @@ export default function Home() {
                     </table>
                 </p>
             </div>
+            <Link href="/">
+                <a className={styles.card}>
+                    <h2>Back to the launch page &rarr;</h2>
+                </a>
+            </Link>
         </div>
     )
 }
