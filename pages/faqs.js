@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import {
     MDBNavbar,
@@ -49,19 +48,9 @@ export default function Home() {
                     </MDBContainer>
                 </MDBNavbar>
             </header>
-            <Head>
-                <title>Frequently Asked Questions</title>
-                <link rel="icon" href={"/favicon.ico"}/>
-                <link rel={"stylesheet"} href={"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"}
-                      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-                      crossOrigin="anonymous"/>
-            </Head>
+            <title>Frequently Asked Questions</title>
             <div
                 className={styles.static_card}
-                style={{
-                    border: "1px solid #f57192",
-                    "background-color": "rgb(255, 240, 243)"
-                }}
             >
                 <h1>
                     <center>Donations</center>
@@ -98,10 +87,6 @@ export default function Home() {
             </div>
             <div
                 className={styles.static_card}
-                style={{
-                    border: "1px solid #193961",
-                    "background-color": "rgb(231, 242, 255)"
-                }}
             >
                 <h1>
                     <center>Student Involvement</center>
