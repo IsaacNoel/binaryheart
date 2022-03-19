@@ -1,4 +1,8 @@
+import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
+
 import {
     MDBNavbar,
     MDBNavbarNav,
@@ -9,7 +13,7 @@ import {
     MDBIcon
 } from 'mdb-react-ui-kit';
 
-export default function Home() {
+function Home(){
     return (
 
         <div className={styles.container}>
@@ -48,7 +52,7 @@ export default function Home() {
                     </MDBContainer>
                 </MDBNavbar>
             </header>
-            <title>Frequently Asked Questions</title>
+            <Title>Frequently Asked Questions</Title>
             <div
                 className={styles.static_card}
             >
