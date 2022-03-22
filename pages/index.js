@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>BinaryHeart</title>
         <meta name="description" content="BinaryHeart official website, from Create Next App" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
@@ -27,7 +27,7 @@ export default function Home() {
         <div className={styles.grid}>
           <Link href="/products">
             <a className={styles.card}>
-              <h2>Availabe Pruducts (this is on purpose) &rarr;</h2>
+              <h2>Availabe Pruducts &rarr;</h2>
               <p>See the solutions we have to offer!</p>
             </a>
           </Link>
