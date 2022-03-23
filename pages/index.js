@@ -59,8 +59,6 @@ export default function Home() {
         </div>
       </main>
 
-      <body style="background-color:#696969;"></body>
-
       <footer className={styles.footer}>
 
       </footer>
