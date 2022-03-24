@@ -113,7 +113,7 @@ function Home(){
                             <tr>
                                 <td>
                                     <b>How do I get involved?</b>
-                                    <p>Visit our New Members page for information</p> //I wanted to add the new members link but it didn't work the way I tried so I'll do it later.
+                                    <p>Visit our New Members page for information</p>
                                 </td>
                             </tr>
                             <tr>
