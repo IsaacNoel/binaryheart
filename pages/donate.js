@@ -52,7 +52,8 @@ export default function Home() {
                 </MDBNavbar>
             </header>
             <Head>
-
+                <link rel="icon" href="/images/favicon.ico" />
+                <link rel="apple-touch-icon" href="/favpng.png" />
             </Head>
         </div>
     )

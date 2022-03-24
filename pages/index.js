@@ -10,6 +10,7 @@ export default function Home() {
         <title>BinaryHeart</title>
         <meta name="description" content="BinaryHeart official website, from Create Next App" />
         <link rel="icon" href="/images/favicon.ico" />
+        <link rel="apple-touch-icon" href="/favpng.png" />
       </Head>
 
       <main className={styles.main}>
