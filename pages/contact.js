@@ -10,6 +10,7 @@ import {
     MDBNavbarNav,
     MDBNavbarToggler
 } from "mdb-react-ui-kit";
+import Link from "next/link";
 
 export default function Home() {
     return (
