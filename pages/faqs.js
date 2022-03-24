@@ -102,7 +102,7 @@ export default function Home(){
                     </p>
                 </div>
                 <div
-                    className={styles.static_card}
+                    className={styles.static_card a}
                 >
                     <h1>
                         <center>Student Involvement</center>
