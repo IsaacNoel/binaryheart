@@ -48,7 +48,7 @@ export default function Home() {
                     </MDBContainer>
                 </MDBNavbar>
             </header>
-            <head>
+            <Head>
                 <title>Contact Us</title>
                 <meta name="description" content="BinaryHeart official website, from Create Next App" />
                 <link rel="icon" href="/images/favicon.ico" />
@@ -56,7 +56,7 @@ export default function Home() {
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
                       integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
                       crossOrigin="anonymous"/>
-            </head>
+            </Head>
             <main className={styles.main}>
                 <p className={styles.description}>
                     Email us questions and donations at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org</a>
