@@ -180,12 +180,6 @@ export default function Home(){
                                     <p>Taylor Swift in her Reputation era.</p>
                                 </td>
                             </tr>
-                            <tr>
-                                <td>
-                                    <b>What impact has BinaryHeart had?</b>
-                                    <p>We've done a lot over the past few years! See the <Link href="/about">About Us</Link> page (side note we should make a little timeline of binaryheart through the years with what happened that year/how much we donated)</p>
-                                </td>
-                            </tr>
                         </table>
                     </p>
                 </div>
