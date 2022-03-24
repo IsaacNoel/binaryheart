@@ -62,6 +62,12 @@ export default function Home() {
                 </p>
                 <p>Click the email above to automatically open up gmail</p>
                 <p><link href="/faqs"> Frequemtly asked questions</link></p>
+
+                <Link href="/">
+                    <a className={styles.card}>
+                        <h2>Back to the launch page &rarr;</h2>
+                    </a>
+                </Link>
             </main>
         </div>
 
