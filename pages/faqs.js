@@ -156,11 +156,12 @@ export default function Home(){
                                     <p>Idk at some point.</p>
                                 </td>
                             </tr>
+                            <tr>
                             <td>
                                 <b>Who are the BinaryHeart sponsors?</b>
                                 <p>Our sponsors are Mrs. Pritchard, Ms. Caruthers, and Mr. Catalano.</p>
                             </td>
-                        </tr>
+                            </tr>
                         </table>
                     </p>
                 </div>
