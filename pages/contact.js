@@ -10,6 +10,7 @@ import {
     MDBNavbarNav,
     MDBNavbarToggler
 } from "mdb-react-ui-kit";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -62,6 +63,13 @@ export default function Home() {
                     Email us questions and donations at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org</a>
                 </p>
                 <p>Click the email above to automatically open up gmail</p>
+                <p className={styles.description}><Link href="/faqs"> Frequently asked questions</Link></p>
+
+                <Link href="/">
+                    <a className={styles.card}>
+                        <h2>Back to the launch page &rarr;</h2>
+                    </a>
+                </Link>
             </main>
         </div>
 

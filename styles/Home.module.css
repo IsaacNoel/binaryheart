@@ -115,6 +115,17 @@
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
+.static_card_red {
+  margin: 2rem 5rem;
+  padding: 1.5rem;
+  text-align: left;
+  text-decoration: none;
+  border: 1px solid #f57192;
+  background-color:#fff0f3;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
 .static_card a{
   color: dodgerblue;
 }
