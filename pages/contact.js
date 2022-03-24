@@ -62,7 +62,7 @@ export default function Home() {
                     Email us questions and donations at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org</a>
                 </p>
                 <p>Click the email above to automatically open up gmail</p>
-                <p className={styles.description}><Link href="/faqs"> Frequemtly asked questions</Link></p>
+                <p className={styles.description}><Link href="/faqs"> Frequently asked questions</Link></p>
 
                 <Link href="/">
                     <a className={styles.card}>

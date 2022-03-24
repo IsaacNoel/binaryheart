@@ -68,22 +68,22 @@ export default function Home(){
                 <div
                     className={styles.static_card}
                 >
-                    <h1>
+                    <h2>
                         <center>Donations</center>
-                    </h1>
+                    </h2>
                     <p className={styles.description}>
                         <table>
                             <tr>
                                 <td>
-                                    <b> What kind of donations are accepted?</b>
-                                    <p> We accept computers (any brand), keyboards, iPads, tablets, monitors, mice, and
+                                    <b>What kind of donations are accepted?</b>
+                                    <p>We accept computers (any brand), keyboards, iPads, tablets, monitors, mice, and
                                         more.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
                                     <b>How do I donate?</b>
-                                    <p>Send us an email if you want to donate!</p>
+                                    <p>Send us an email if you want to donate! <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org</a></p>
                                 </td>
                             </tr>
                             <tr>
@@ -104,9 +104,9 @@ export default function Home(){
                 <div
                     className={styles.static_card_red}
                 >
-                    <h1>
+                    <h2>
                         <center>Student Involvement</center>
-                    </h1>
+                    </h2>
                     <p className={styles.description}>
                         <table>
                             <tr>
@@ -124,9 +124,43 @@ export default function Home(){
                             <tr>
                                 <td>
                                     <b>What experience do I need?</b>
-                                    <p>None! We welcome all levels of experience.</p>
+                                    <p>None! We welcome all levels of technical experience.</p>
                                 </td>
                             </tr>
+                            <tr>
+                                <td>
+                                    <b>Where does BinaryHeart meet?</b>
+                                    <p>We meet in room 504 of the Winnetka campus building.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <b>New Trier has a fifth floor?</b>
+                                    <p>Yes! It is the old WNTH radio station. The room is on the old (east) side of the building. It faces the front of the campus out to Winnetka Avenue.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </p>
+                </div>
+                <div
+                    className={styles.static_card}
+                >
+                    <h2>
+                        <center>General Questions</center>
+                    </h2>
+                    <p className={styles.description}>
+                        <table>
+                            <tr>
+                                <td>
+                                    <b>When was BinaryHeart founded?</b>
+                                    <p>Idk at some point.</p>
+                                </td>
+                            </tr>
+                            <td>
+                                <b>Who are the BinaryHeart sponsors?</b>
+                                <p>Our sponsors are Mrs. Pritchard, Ms. Caruthers, and Mr. Catalano.</p>
+                            </td>
+                        </tr>
                         </table>
                     </p>
                 </div>
