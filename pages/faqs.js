@@ -12,7 +12,7 @@ import {
 } from 'mdb-react-ui-kit';
 import Link from "next/link"
 
-function Home(){
+export default function Home(){
     return (
 
         <div className={styles.container}>
