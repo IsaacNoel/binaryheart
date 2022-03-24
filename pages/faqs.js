@@ -65,7 +65,9 @@ export default function Home(){
                 <h2 className={styles.semititle}>
                    Frequently Asked Questions
                 </h2>
-                <div>
+                <div
+                    className={styles.static_card}
+                >
                     <h1>
                         <center>Donations</center>
                     </h1>
@@ -99,7 +101,9 @@ export default function Home(){
                         </table>
                     </p>
                 </div>
-                <div>
+                <div
+                    className={styles.static_card}
+                >
                     <h1>
                         <center>Student Involvement</center>
                     </h1>
