@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Link from 'next/link'
-
 import {
     MDBNavbar,
     MDBNavbarNav,
@@ -12,6 +10,7 @@ import {
     MDBContainer,
     MDBIcon
 } from 'mdb-react-ui-kit';
+import Link from "next/link"
 
 function Home(){
     return (
