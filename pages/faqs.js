@@ -112,13 +112,19 @@ export default function Home(){
                             <tr>
                                 <td>
                                     <b>How do I get involved?</b>
-                                    <p>Visit our <Link href="/newmembers">New Members page</Link> for information</p>
+                                    <p>Visit our <Link href="/newmembers">New Members</Link> page for information</p>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
                                     <b>When does BinaryHeart meet?</b>
                                     <p>We meet every Wednesday and Thursday from 3:30 pm to 5 pm.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <b>What experience do I need?</b>
+                                    <p>None! We welcome all levels of experience.</p>
                                 </td>
                             </tr>
                         </table>
