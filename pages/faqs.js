@@ -117,8 +117,20 @@ export default function Home(){
                             </tr>
                             <tr>
                                 <td>
+                                    <b>Who are the BinaryHeart sponsors?</b>
+                                    <p>Our sponsors are Mrs. Pritchard, Ms. Caruthers, and Mr. Catalano.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
                                     <b>When does BinaryHeart meet?</b>
                                     <p>We meet every Wednesday and Thursday from 3:30 pm to 5 pm.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <b>Is it required to come everyday?</b>
+                                    <p>No. We understand that you may have other commitments, so come only as often as you can.</p>
                                 </td>
                             </tr>
                             <tr>
@@ -139,6 +151,12 @@ export default function Home(){
                                     <p>Yes! It is the old WNTH radio station. The room is on the old (east) side of the building. It faces the front of the campus out to Winnetka Avenue.</p>
                                 </td>
                             </tr>
+                            <tr>
+                                <td>
+                                    <b>Can I join as a freshman?</b>
+                                    <p>Yes! You will need to go to the Winnetka campus, but you are welcome to join.</p>
+                                </td>
+                            </tr>
                         </table>
                     </p>
                 </div>
@@ -153,14 +171,14 @@ export default function Home(){
                             <tr>
                                 <td>
                                     <b>When was BinaryHeart founded?</b>
-                                    <p>Idk at some point.</p>
+                                    <p>Last week.</p>
                                 </td>
                             </tr>
                             <tr>
-                            <td>
-                                <b>Who are the BinaryHeart sponsors?</b>
-                                <p>Our sponsors are Mrs. Pritchard, Ms. Caruthers, and Mr. Catalano.</p>
-                            </td>
+                                <td>
+                                    <b>Who founded BinaryHeart?</b>
+                                    <p>Taylor Swift in her Reputation era.</p>
+                                </td>
                             </tr>
                         </table>
                     </p>
