@@ -30,7 +30,7 @@ export default function Home() {
                         <div className='collapse navbar-collapse headerdiv' id='navbarExample01' >
                             <MDBNavbarNav right className='mb-2 mb-lg-0'>
                                 <MDBNavbarItem active>
-                                    <MDBNavbarLink aria-current='page' href='/' style={{color: "white"}}>
+                                    <MDBNavbarLink aria-current='page' href='/'>
                                         Home
                                     </MDBNavbarLink>
                                 </MDBNavbarItem>
