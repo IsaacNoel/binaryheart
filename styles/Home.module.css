@@ -66,7 +66,22 @@
   text-align: left;
 
 }
+
+.centereddesc {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  text-align: center;
+}
+
 .description a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.centereddesc a {
   color: #0070f3;
   text-decoration: none;
 }
@@ -74,6 +89,12 @@
 .description a:hover,
 .description a:focus,
 .description a:active {
+  text-decoration: underline;
+}
+
+.centereddesc a:hover,
+.centereddesc a:focus,
+.centereddesc a:active {
   text-decoration: underline;
 }
 
