@@ -27,7 +27,7 @@ export default function Home() {
                         >
                             <MDBIcon fas icon='bars' />
                         </MDBNavbarToggler>
-                        <div className='collapse navbar-collapse headerdiv' id='navbarExample01'>
+                        <div className='collapse navbar-collapse headerdiv' id='navbarExample01' >
                             <MDBNavbarNav right className='mb-2 mb-lg-0'>
                                 <MDBNavbarItem active>
                                     <MDBNavbarLink aria-current='page' href='/'>
@@ -38,7 +38,7 @@ export default function Home() {
                                     <MDBNavbarLink href='/about'>About</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/contact'>Contact</MDBNavbarLink>
+                                    <MDBNavbarLink href='/contact'>Contact us</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
                                     <MDBNavbarLink href='/products'>Products</MDBNavbarLink>
