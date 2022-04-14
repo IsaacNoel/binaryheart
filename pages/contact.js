@@ -59,12 +59,13 @@ export default function Home() {
                       crossOrigin="anonymous"/>
             </Head>
             <main className={styles.main}>
-                <p className={styles.description}>
-                    Email us questions and donations at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org</a>
+                <p className={styles.centereddesc}>
+                    Email us about questions and donations at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org (Gmail Link)</a><br/>
+                    Also see: <Link href="/faqs">Frequently asked questions</Link>
                 </p>
-                <p>Click the email above to automatically open up gmail</p>
-                <p className={styles.description}><Link href="/faqs"> Frequently asked questions</Link></p>
-
+                <p className={styles.container}>
+                    If you have any questions about the website itself, you can also find the developers at our <a href={"https://github.com/IsaacNoel/binaryheart"}>GitHub page</a>
+                </p>
                 <Link href="/">
                     <a className={styles.card}>
                         <h2>Back to the launch page &rarr;</h2>
