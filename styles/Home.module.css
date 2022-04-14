@@ -187,9 +187,9 @@
 .scalingimageicon {
   max-height: inherit;
   max-width: inherit;
-  margin: 0;
+  margin: 1;
   display: block;
-  width: 5%
+  width: 3%
 }
 
 @media (max-width: 700px) {
