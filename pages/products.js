@@ -52,7 +52,7 @@ export default function Home() {
             </header>
             <Head>
                 <title>BinaryHeart</title>
-                <meta name="description" content="BinaryHeart official website, from Create Next App" />
+                <meta name="description" content="Bridging the digital divide" />
                 <link rel="icon" href="/images/favicon.ico" />
                 <link rel="apple-touch-icon" href="/favpng.png" />
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
