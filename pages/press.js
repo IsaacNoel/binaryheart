@@ -18,7 +18,7 @@ export default function Home() {
         <div className={styles.container}>
 
             <header>
-                <MDBNavbar expand='lg' light bgColor='white'>
+                <MDBNavbar expand='md' light bgColor="white">
                     <MDBContainer fluid>
                         <MDBNavbarToggler
                             aria-controls='navbarExample01'
@@ -35,16 +35,16 @@ export default function Home() {
                                     </MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/about'>About</MDBNavbarLink>
-                                </MDBNavbarItem>
-                                <MDBNavbarItem>
-                                    <MDBNavbarLink href='/contact'>Contact</MDBNavbarLink>
-                                </MDBNavbarItem>
-                                <MDBNavbarItem>
-                                    <MDBNavbarLink href='/products'>Products</MDBNavbarLink>
+                                    <MDBNavbarLink href='/press'>Press</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
                                     <MDBNavbarLink href='/donate'>Donate</MDBNavbarLink>
+                                </MDBNavbarItem>
+                                <MDBNavbarItem>
+                                    <MDBNavbarLink href='/contact'>Contact Us</MDBNavbarLink>
+                                </MDBNavbarItem>
+                                <MDBNavbarItem>
+                                    <MDBNavbarLink href='/about'>About</MDBNavbarLink>
                                 </MDBNavbarItem>
                             </MDBNavbarNav>
                         </div>
@@ -52,8 +52,8 @@ export default function Home() {
                 </MDBNavbar>
             </header>
             <Head>
-                <title>BinaryHeart&lsquo;s Press Coverage</title>
-                <meta name="description" content="BinaryHeart official website, from Create Next App" />
+                <title>BinaryHeart</title>
+                <meta name="description" content="Bridging the digital divide" />
                 <link rel="icon" href="/images/favicon.ico" />
                 <link rel="apple-touch-icon" href="/favpng.png" />
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"

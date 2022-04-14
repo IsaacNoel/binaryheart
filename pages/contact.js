@@ -16,7 +16,7 @@ export default function Home() {
     return (
         <div className={styles.container}>
             <header>
-                <MDBNavbar expand='lg' light bgColor='white'>
+                <MDBNavbar expand='md' light bgColor="white">
                     <MDBContainer fluid>
                         <MDBNavbarToggler
                             aria-controls='navbarExample01'
@@ -26,7 +26,7 @@ export default function Home() {
                             <MDBIcon fas icon='bars' />
                         </MDBNavbarToggler>
                         <div className='collapse navbar-collapse headerdiv' id='navbarExample01'>
-                            <MDBNavbarNav right className='mb-1 mb-lg-0'>
+                            <MDBNavbarNav right className='mb-2 mb-lg-0'>
                                 <MDBNavbarItem active>
                                     <MDBNavbarLink aria-current='page' href='/'>
                                         Home
@@ -36,13 +36,13 @@ export default function Home() {
                                     <MDBNavbarLink href='/press'>Press</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/contact'>Contact us</MDBNavbarLink>
-                                </MDBNavbarItem>
-                                <MDBNavbarItem>
-                                    <MDBNavbarLink href='/products'>Products</MDBNavbarLink>
-                                </MDBNavbarItem>
-                                <MDBNavbarItem>
                                     <MDBNavbarLink href='/donate'>Donate</MDBNavbarLink>
+                                </MDBNavbarItem>
+                                <MDBNavbarItem>
+                                    <MDBNavbarLink href='/contact'>Contact Us</MDBNavbarLink>
+                                </MDBNavbarItem>
+                                <MDBNavbarItem>
+                                    <MDBNavbarLink href='/about'>About</MDBNavbarLink>
                                 </MDBNavbarItem>
                             </MDBNavbarNav>
                         </div>
@@ -50,8 +50,8 @@ export default function Home() {
                 </MDBNavbar>
             </header>
             <Head>
-                <title>Contact Us</title>
-                <meta name="description" content="BinaryHeart official website, from Create Next App" />
+                <title>BinaryHeart</title>
+                <meta name="description" content="Bridging the digital divide" />
                 <link rel="icon" href="/images/favicon.ico" />
                 <link rel="apple-touch-icon" href="/favpng.png" />
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
