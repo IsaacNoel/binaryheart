@@ -112,12 +112,6 @@ export default function Home(){
                         <table>
                             <tr>
                                 <td>
-                                    <b>How do I get involved?</b>
-                                    <p>Visit our <Link href="/newmembers">New Members</Link> page for information</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
                                     <b>Who are the BinaryHeart sponsors?</b>
                                     <p>Our sponsors are Mrs. Pritchard, Ms. Caruthers, and Mr. Catalano.</p>
                                 </td>
@@ -190,6 +184,10 @@ export default function Home(){
                     </a>
                 </Link>
             </main>
+            <footer className={styles.footer}>
+                <Link href="https://www.instagram.com/binaryheartnt/"><img className={styles.scalingimage} src="/instagram.png" /></Link>
+            </footer>
             </div>
+
     )
 }
