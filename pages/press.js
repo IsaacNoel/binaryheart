@@ -108,25 +108,29 @@ export default function Home() {
                                 </td>
                                 <td>
                                     <div className={styles.pressChart}>
-                                <td width="25%">
-                                    <p> photo </p>
-                                </td>
-                                <td>
-                                    <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/news/2021/05/19/new-trier-club-receives-service-award/">
-                                        BinaryHeart Receives Outstanding Youth Service Award! ⮕</a></b></p></h2>
+                                        <td width="25%">
+                                            <p> photo </p>
+                                        </td>
 
-                                    <p> The Volunteer Center, a North Shore non-profit volunteering organization,
-                                        awards BinaryHeart for our e-learning donations.</p>
+                                        <td>
+                                            <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/news/2021/05/19/new-trier-club-receives-service-award/">
+                                                BinaryHeart Receives Outstanding Youth Service Award! ⮕</a></b></p></h2>
 
-                                    <p></p>
+                                            <p> The Volunteer Center, a North Shore non-profit volunteering organization,
+                                                awards BinaryHeart for our e-learning donations.</p>
 
-                                    <p><b> <a className={styles.maryanne} href="https://hu-hu.facebook.com/newtrieref/videos/binaryheart-outstanding-youth-volunteer-awards-video/274212744104600/">
-                                        Watch the video here!</a></b></p>
+                                            <p></p>
+
+                                            <p><b> <a className={styles.maryanne} href="https://hu-hu.facebook.com/newtrieref/videos/binaryheart-outstanding-youth-volunteer-awards-video/274212744104600/">
+                                                Watch the video here!</a></b></p>
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                        </td>
+
                                     </div>
-                                    <br/>
-                                    <br/>
-                                    <br/>
-                  </td>
+                                </td>
+
                             </tr>
                             <tr>
                                 <td width="30%">
