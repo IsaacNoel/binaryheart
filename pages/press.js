@@ -139,7 +139,7 @@ export default function Home() {
                                         I&lsquo;ve volunteered for BinaryHeart for two years now.
                                         When not fixing computers, I work on our website,
                                         manage our inventory system, and have plans for chapter expansion.
-                                        .</p>
+                                        </p>
                                 </td>
                             </tr>
                             <tr>
@@ -153,7 +153,7 @@ export default function Home() {
                                         I&lsquo;m usually in charge of organization, whether on the task sheet or
                                         in the closet I spent an entire year setting up.
                                         By the way, I&lsquo;ve been to the North Pole!
-                                        .</p>
+                                    </p>
                                 </td>
                             </tr>
                         </table>
