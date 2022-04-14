@@ -184,12 +184,20 @@
 
 }
 
-.scalingimageicon {
+.scalingimageinstagram {
   max-height: inherit;
   max-width: inherit;
-  margin: 3;
+  margin: 5;
   display: block;
   width: 3%
+}
+
+.scalingimagelinkedin {
+  max-height: inherit;
+  max-width: inherit;
+  margin: 5;
+  display: block;
+  width: 4%
 }
 
 @media (max-width: 700px) {
