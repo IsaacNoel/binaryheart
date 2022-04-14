@@ -18,16 +18,16 @@ export default function Home(){
         <div className={styles.container}>
 
             <header>
-                <MDBNavbar expand='lg' light bgColor='white'>
+                <MDBNavbar expand='md' light bgColor="white">
                     <MDBContainer fluid>
                         <MDBNavbarToggler
                             aria-controls='navbarExample01'
                             aria-expanded='false'
                             aria-label='Toggle navigation'
                         >
-                            <MDBIcon fas icon='bars'/>
+                            <MDBIcon fas icon='bars' />
                         </MDBNavbarToggler>
-                        <div className='collapse navbar-collapse' id='navbarExample01'>
+                        <div className='collapse navbar-collapse headerdiv' id='navbarExample01'>
                             <MDBNavbarNav right className='mb-2 mb-lg-0'>
                                 <MDBNavbarItem active>
                                     <MDBNavbarLink aria-current='page' href='/'>
@@ -38,13 +38,13 @@ export default function Home(){
                                     <MDBNavbarLink href='/press'>Press</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/contact'>Contact us</MDBNavbarLink>
-                                </MDBNavbarItem>
-                                <MDBNavbarItem>
-                                    <MDBNavbarLink href='/products'>Products</MDBNavbarLink>
-                                </MDBNavbarItem>
-                                <MDBNavbarItem>
                                     <MDBNavbarLink href='/donate'>Donate</MDBNavbarLink>
+                                </MDBNavbarItem>
+                                <MDBNavbarItem>
+                                    <MDBNavbarLink href='/contact'>Contact Us</MDBNavbarLink>
+                                </MDBNavbarItem>
+                                <MDBNavbarItem>
+                                    <MDBNavbarLink href='/about'>About</MDBNavbarLink>
                                 </MDBNavbarItem>
                             </MDBNavbarNav>
                         </div>
