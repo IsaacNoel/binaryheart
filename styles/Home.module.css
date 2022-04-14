@@ -184,6 +184,14 @@
 
 }
 
+.scalingimageicon {
+  max-height: inherit;
+  max-width: 50%;
+  margin: auto;
+  display: block;
+  width: 40%
+}
+
 @media (max-width: 700px) {
   .description {
     margin: 4rem 0;
