@@ -61,6 +61,7 @@ export default function Home() {
                       integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
                       crossOrigin="anonymous"/>
             </Head>
+            
         </div>
     )
 }
