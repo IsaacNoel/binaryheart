@@ -66,6 +66,12 @@
   text-align: left;
 
 }
+
+.pressChart {
+  margin-top: 15%;
+  margin-left: 5%;
+}
+
 .description a {
   color: #0070f3;
   text-decoration: none;
