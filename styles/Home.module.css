@@ -187,7 +187,7 @@
 .scalingimageinstagram {
   max-height: inherit;
   max-width: inherit;
-  margin: 5;
+  margin: 6;
   display: block;
   width: 3%
 }
@@ -195,9 +195,9 @@
 .scalingimagelinkedin {
   max-height: inherit;
   max-width: inherit;
-  margin: 5;
+  margin: 6;
   display: block;
-  width: 4%
+  width: 3.5%
 }
 
 @media (max-width: 700px) {
