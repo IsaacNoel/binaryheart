@@ -90,21 +90,27 @@ export default function Home() {
                     </p>
 
                 </div>
+                <p className={styles.static_card}
+                   style={{
+                       border: "1px solid #C8F0C8",
+                       "background-color": "rgb(200, 240, 200)"
+                   }}
+                >
+                <td>
+                    <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/news/2021/05/19/new-trier-club-receives-service-award/">
+                        BinaryHeart Receives Outstanding Youth Service Award! ⮕</a></b></p></h2>
+
+                    <p> The Volunteer Center, a North Shore non-profit volunteering organization,
+                        awards BinaryHeart for our e-learning donations.</p>
+                </td>
+                </p>
 
                 <div className ={styles.static_card}>
-
                     <p className={styles.description}>
                         <table>
                             <tr>
                                 <td width="25%">
                                     <p> photo </p>
-                                </td>
-                                <td>
-                                    <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/news/2021/05/19/new-trier-club-receives-service-award/">
-                                        BinaryHeart Receives Outstanding Youth Service Award! ⮕</a></b></p></h2>
-
-                                    <p> The Volunteer Center, a North Shore non-profit volunteering organization,
-                                        awards BinaryHeart for our e-learning donations.</p>
                                 </td>
                             </tr>
                             <tr>
