@@ -64,13 +64,16 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <Link href="https://www.instagram.com/binaryheartnt/"><img className={styles.scalingimageicon} src="/instagram.png" /></Link>
-        <img className={styles.scalingimageicon} src={"/blank space.png"} />
-        <Link href="https://www.linkedin.com/company/binaryheart/"><img className={styles.scalingimageicon} src="/linkedin icon.png" /></Link>
-        <img className={styles.scalingimageicon} src={"/blank space.png"} />
-        <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org"><img className={styles.scalingimageicon} src="/email square.png" /></Link>
-        <img className={styles.scalingimageicon} src={"/blank space.png"} />
-        <Link href="tel:+1-847-910-7044"><img className={styles.scalingimageicon} src="/phone.png" /></Link>
+        <div>
+          <Link href="https://www.instagram.com/binaryheartnt/"><img className={styles.scalingimageicon} src="/instagram.png" /></Link>
+          <img className={styles.scalingimageicon} src={"/blank space.png"} />
+          <Link href="https://www.linkedin.com/company/binaryheart/"><img className={styles.scalingimageicon} src="/linkedin icon.png" /></Link>
+          <img className={styles.scalingimageicon} src={"/blank space.png"} />
+          <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org"><img className={styles.scalingimageicon} src="/email square.png" /></Link>
+          <img className={styles.scalingimageicon} src={"/blank space.png"} />
+          <Link href="tel:+1-847-910-7044"><img className={styles.scalingimageicon} src="/phone.png" /></Link>
+        </div>
+        <p>BinaryHeart - <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org</a> - (847)910-7044</p>
       </footer>
     </div>
   )
