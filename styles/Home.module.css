@@ -197,7 +197,7 @@
   max-width: inherit;
   margin: 0;
   display: block;
-  height: 3%
+  width: 2%
 }
 
 @media (max-width: 700px) {
