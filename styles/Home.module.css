@@ -18,6 +18,23 @@
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
+  align-items: center;
+}
+
+.footericons {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: right;
+}
+
+.footertext {
+  text-align: left;
+  margin: 0;
+  line-heigh: 1;
+  font-size: 2rem;
 }
 
 .footer a {
