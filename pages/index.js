@@ -66,8 +66,8 @@ export default function Home() {
       <footer className={styles.footer}>
         <div className={styles.footertext}>
           <h2><font color = "#ff0040">Binary</font><font color = "#193961">Heart</font></h2>
-          <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org</a></p>
           <p><a href="tel:+1-847-910-7044">(847)910-7044</a></p>
+          <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org</a></p>
         </div>
         <div className={styles.footericons}>
           <Link href="https://www.instagram.com/binaryheartnt/"><img className={styles.scalingimageicon} src="/instagram.png" /></Link>

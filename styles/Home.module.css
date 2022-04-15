@@ -27,10 +27,8 @@
   align-items: right;
 }
 
-.footericons a:hover,
-.footericons a:focus,
-.footericons a:active {
-  background: #ff0040;
+.footericons a:hover {
+  background-color: #ff0040;
 }
 
 .footertext {
