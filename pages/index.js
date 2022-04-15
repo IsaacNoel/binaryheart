@@ -70,13 +70,13 @@ export default function Home() {
           <p><a href="tel:+1-847-910-7044">(847)910-7044</a></p>
         </div>
         <div className={styles.footericons}>
-          <Link href="https://www.instagram.com/binaryheartnt/"><img className={styles.scalingimageicon} src="/instagram.png" /></Link>
+          <Link href="https://www.instagram.com/binaryheartnt/"><img title="Instagram" className={styles.scalingimageicon} src="/instagram.png" /></Link>
           <img className={styles.scalingimageicon} src={"/blank space.png"} />
-          <Link href="https://www.linkedin.com/company/binaryheart/"><img className={styles.scalingimageicon} src="/linkedin icon.png" /></Link>
+          <Link href="https://www.linkedin.com/company/binaryheart/"><img title="LinkedIn" className={styles.scalingimageicon} src="/linkedin icon.png" /></Link>
           <img className={styles.scalingimageicon} src={"/blank space.png"} />
-          <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org"><img className={styles.scalingimageicon} src="/email square.png" /></Link>
+          <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org"><img title="Email" className={styles.scalingimageicon} src="/email square.png" /></Link>
           <img className={styles.scalingimageicon} src={"/blank space.png"} />
-          <Link href="tel:+1-847-910-7044"><img className={styles.scalingimageicon} src="/phone.png" /></Link>
+          <Link href="tel:+1-847-910-7044"><img title="Phone" className={styles.scalingimageicon} src="/phone.png" /></Link>
         </div>
       </footer>
     </div>
