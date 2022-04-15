@@ -28,13 +28,7 @@
 }
 
 .footericons a:hover {
-  max-height: inherit;
-  max-width: inherit;
-  margin: 0;
-  display: block;
-  width: 4%;
-  height: 4%;
-  filter: brightness(100);
+  border: 1px solid #ff0040;
 }
 
 .footertext {
