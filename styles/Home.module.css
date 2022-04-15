@@ -25,10 +25,11 @@
   display: flex;
   justify-content: right;
   align-items: right;
+  display: none;
 }
 
 .footericons a:hover {
-  border: 1px solid #ff0040;
+  display: block;
 }
 
 .footertext {
