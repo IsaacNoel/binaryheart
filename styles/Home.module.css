@@ -23,8 +23,6 @@
 
 .footericons {
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
   justify-content: right;
   align-items: right;
 }
@@ -33,7 +31,7 @@
   text-align: left;
   margin: 0;
   line-height: 1;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .footer a {
