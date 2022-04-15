@@ -29,6 +29,7 @@
 
 .footericons a:hover {
   background-color: #ff0040;
+  filter: brightness(100);
 }
 
 .footertext {
