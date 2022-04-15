@@ -187,7 +187,7 @@
 .scalingimageicon {
   max-height: inherit;
   max-width: inherit;
-  margin: 20;
+  margin: 0;
   display: block;
   width: 3%
 }
