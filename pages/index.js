@@ -64,6 +64,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
+        <h3>BinaryHeart - <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org</a> - <a href="tel:+1-847-910-7044">(847)910-7044</a></h3>
         <div>
           <Link href="https://www.instagram.com/binaryheartnt/"><img className={styles.scalingimageicon} src="/instagram.png" /></Link>
           <img className={styles.scalingimageicon} src={"/blank space.png"} />
@@ -73,7 +74,6 @@ export default function Home() {
           <img className={styles.scalingimageicon} src={"/blank space.png"} />
           <Link href="tel:+1-847-910-7044"><img className={styles.scalingimageicon} src="/phone.png" /></Link>
         </div>
-        <p>BinaryHeart - <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org</a> - (847)910-7044</p>
       </footer>
     </div>
   )
