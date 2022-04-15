@@ -25,16 +25,15 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
+  justify-content: right;
   align-items: right;
 }
 
 .footertext {
   text-align: left;
   margin: 0;
-  line-heigh: 1;
-  font-size: 2rem;
+  line-height: 1;
+  font-size: 1rem;
 }
 
 .footer a {
