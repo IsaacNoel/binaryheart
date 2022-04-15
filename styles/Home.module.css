@@ -193,8 +193,6 @@
   margin: auto;
   display: block;
   width: 90%
-
-
 }
 
 .scalingimageicon {
@@ -203,6 +201,7 @@
   margin: 0;
   display: block;
   width: 3%
+  height: 3%
 }
 
 @media (max-width: 700px) {
