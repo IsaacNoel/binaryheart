@@ -192,14 +192,6 @@
   width: 3%
 }
 
-.scalingimageemail {
-  max-height: inherit;
-  max-width: inherit;
-  margin: 0;
-  display: block;
-  width: 3%
-}
-
 @media (max-width: 700px) {
   .description {
     margin: 4rem 0;
