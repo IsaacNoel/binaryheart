@@ -32,7 +32,8 @@
 }
 
 .footertext {
-  text-align-all: left;
+  text-align: left;
+  text-align-last: left;
   margin: 0;
   line-height: 1;
   font-size: 1.25rem;
