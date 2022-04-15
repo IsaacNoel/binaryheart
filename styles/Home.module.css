@@ -27,6 +27,12 @@
   align-items: right;
 }
 
+.footericons a:hover,
+.footericons a:focus,
+.footericons a:active {
+  background: #ff0040;
+}
+
 .footertext {
   text-align: left;
   margin: 0;
