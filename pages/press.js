@@ -101,7 +101,6 @@ export default function Home() {
                                     <img className={styles.scalingimage} src="/service award.png" alt="service award" />
                                 </td>
                                 <td>
-
                                     <div className={styles.pressChart}>
                                         <p className={styles.pressDate}> MAY 19, 2021</p>
                                     <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/news/2021/05/19/new-trier-club-receives-service-award/">
