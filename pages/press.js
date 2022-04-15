@@ -63,15 +63,17 @@ export default function Home() {
             <main className={styles.main}>
 
 
-                <h1 className={styles.semititle}>
-                    BinaryHeart in the News!
+                <h1 className={styles.pressBig}>
+                    <b>BinaryHeart in the News!</b>
                 </h1>
 
+                <p className={styles.pressSub}>
+                    <br/>
 
-
-                <p className={styles.description}>
                     Follow along our journey to<code className={styles.code}>spread digital
-                    access</code>. Check out our latest news updates here!
+                    access</code>.
+
+                    Check out our latest news updates here!
                 </p>
 
                 <div
@@ -82,7 +84,7 @@ export default function Home() {
                     }}
                 >
                     <h3>
-                        <center>Press Inquiries</center>
+                        <b><center>Press Inquiries</center></b>
                     </h3>
                     <p className={styles.description}>
                         If you&lsquo;re a member of the press, please email us at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org</a>.
@@ -99,69 +101,102 @@ export default function Home() {
                                     <img className={styles.scalingimage} src="/service award.png" alt="service award" />
                                 </td>
                                 <td>
+
                                     <div className={styles.pressChart}>
+                                        <p className={styles.pressDate}> MAY 19, 2021</p>
                                     <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/news/2021/05/19/new-trier-club-receives-service-award/">
-                                        BinaryHeart Receives Outstanding Youth Service Award! ⮕</a></b></p></h2>
+                                        BinaryHeart receives Outstanding Youth Service Award! ⮕</a></b></p></h2>
 
                                     <p> The Volunteer Center, a North Shore non-profit volunteering organization,
-                                        awards BinaryHeart for our e-learning donations.</p>
-                                    <p></p>
+                                        awards us for our e-learning donations.</p>
 
                                     <p><b> <a className={styles.maryanne} href="https://hu-hu.facebook.com/newtrieref/videos/binaryheart-outstanding-youth-volunteer-awards-video/274212744104600/">
                                         Watch the video here!</a></b></p>
                                     </div>
-                                    <br/>
-                                    <br/>
-                                    <br/>
                                 </td>
                             </tr>
                             <tr>
-                                <td width="30%">
-                                    <p> photo </p>
+                                <td width="40%">
+                                    <img className={styles.scalingimage} src="/day of service.jpg" alt="day of service" />
                                 </td>
                                 <td>
-                                    <b> Nicholas Sutherland </b>
-                                    <p>Howdy! I&lsquo;m Nicholas, a senior at New Trier High School,
-                                        and this is my third year at BinaryHeart. I usually end up building shelves,
-                                        organizing screwdrivers, and working on our workspace during club.
-                                        Oh yeah, and I invented the microwave burrito.</p>
+
+                                    <div className={styles.pressChart}>
+                                        <p className={styles.pressDate}> MAY 19, 2021</p>
+                                        <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/features/2021/05/19/day-of-service-allows-alumni-to-work-on-passion-projects/">
+                                            Collecting devices for Day of Service ⮕</a></b></p></h2>
+
+                                        <p> After we moved to a bigger room, volunteers worked to clean, organize,
+                                            and log devices.</p>
+
+                                    </div>
                                 </td>
                             </tr>
                             <tr>
-                                <td width="25%">
-                                    <p> photo </p>
+                                <td width="40%">
+                                    <img className={styles.scalingimage} src="/covid workstation.jpg" alt="covid workstation" />
                                 </td>
                                 <td>
-                                    <b> Rom Fradkin </b>
-                                    <p>Rom Fradkin (5’ 9’’, 150lbs) is a senior at New Trier High School.
-                                        He&lsquo;s volunteered for BinaryHeart since freshman year. He owns four cows.</p>
+
+                                    <div className={styles.pressChart}>
+                                        <p className={styles.pressDate}> OCTOBER 20, 2020</p>
+                                        <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/news/2020/10/23/clubs-get-creative-to-make-service-possible/">
+                                            Adapting to COVID-19 ⮕</a></b></p></h2>
+
+                                        <p> We implement safety measures, such as socially distant work stations and
+                                            disinfectant materials, to ensure safe volunteering during COVID.</p>
+
+                                    </div>
                                 </td>
                             </tr>
                             <tr>
-                                <td width="25%">
-                                    <p> photo </p>
+                                <td width="40%">
+                                    <img className={styles.scalingimage} src="/isabella allada.jpg" alt="isabella allada" />
                                 </td>
                                 <td>
-                                    <b> Julia Hudson  </b>
-                                    <p>Hey! I&lsquo;m Julia, a sophomore at New Trier High School.
-                                        I&lsquo;ve volunteered for BinaryHeart for two years now.
-                                        When not fixing computers, I work on our website,
-                                        manage our inventory system, and have plans for chapter expansion.
-                                        .</p>
+
+                                    <div className={styles.pressChart}>
+                                        <p className={styles.pressDate}> MARCH 13, 2020</p>
+                                        <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/features/2020/03/13/kathrine-johnsons-legacy-inspiring-young-women-to-pursue-stem-careers/">
+                                            Women in BinaryHeart ⮕</a></b></p></h2>
+
+                                        <p> In an interview with BH members Maryanne Xu and Isabella Allada, the New Trier
+                                            News discusses Katherine Johnson's legacy for women pursuing STEM.</p>
+
+                                    </div>
                                 </td>
                             </tr>
                             <tr>
-                                <td width="25%">
-                                    <p> photo </p>
+                                <td width="40%">
+
+                                    <img className={styles.scalingimage} src="/abc news.jpg" alt="abc camera crew" />
                                 </td>
                                 <td>
-                                    <b> Andrew Gill </b>
-                                    <p>Hello, I&lsquo;m Andrew! :) I&lsquo;m a senior at New Trier High School,
-                                        and I&lsquo;ve been in the club since my sophomore year.
-                                        I&lsquo;m usually in charge of organization, whether on the task sheet or
-                                        in the closet I spent an entire year setting up.
-                                        By the way, I&lsquo;ve been to the North Pole!
-                                        .</p>
+
+                                    <div className={styles.pressChart}>
+                                        <p className={styles.pressDate}> OCTOBER 23, 2018</p>
+                                        <h2><p><b> <a className={styles.maryanne} href="https://abc7chicago.com/new-trier-high-school-after-clubs-student-computer-refurbishment/4512319/">
+                                            We debut on Abc7 News! ⮕</a></b></p></h2>
+
+                                        <p> Read more for the founders' original goals and future hopes for the club. </p>
+
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="40%">
+                                    <img className={styles.scalingimage} src="/origin.jpg" alt="first devices" />
+                                </td>
+                                <td>
+
+                                    <div className={styles.pressChart}>
+                                        <p className={styles.pressDate}> AUGUST 24, 2018</p>
+                                        <h2><p><b> <a className={styles.maryanne} href="https://www.chicagotribune.com/suburbs/winnetka/ct-wtk-binary-heart-tl-0830-story.html">
+                                            Our origin story ⮕</a></b></p></h2>
+
+                                        <p> The Chicago Tribune interviews BinaryHeart's first members on how the club was founded. </p>
+
+                                    </div>
                                 </td>
                             </tr>
                         </table>
