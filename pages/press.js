@@ -98,9 +98,22 @@ export default function Home() {
                     </p>
 
                 </div>
+                <p className={styles.static_card}
+                   style={{
+                       border: "1px solid #C8F0C8",
+                       "background-color": "rgb(200, 240, 200)"
+                   }}
+                >
+                <td>
+                    <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/news/2021/05/19/new-trier-club-receives-service-award/">
+                        BinaryHeart Receives Outstanding Youth Service Award! ⮕</a></b></p></h2>
+
+                    <p> The Volunteer Center, a North Shore non-profit volunteering organization,
+                        awards BinaryHeart for our e-learning donations.</p>
+                </td>
+                </p>
 
                 <div className ={styles.static_card}>
-
                     <p className={styles.description}>
                         <table>
                             <tr>
@@ -132,7 +145,6 @@ export default function Home() {
 
                                     </div>
                                 </td>
-
                             </tr>
                             <tr>
                                 <td width="30%">
@@ -166,7 +178,7 @@ export default function Home() {
                                         I&lsquo;ve volunteered for BinaryHeart for two years now.
                                         When not fixing computers, I work on our website,
                                         manage our inventory system, and have plans for chapter expansion.
-                                        .</p>
+                                        </p>
                                 </td>
                             </tr>
                             <tr>
@@ -180,7 +192,7 @@ export default function Home() {
                                         I&lsquo;m usually in charge of organization, whether on the task sheet or
                                         in the closet I spent an entire year setting up.
                                         By the way, I&lsquo;ve been to the North Pole!
-                                        .</p>
+                                    </p>
                                 </td>
                             </tr>
                         </table>
