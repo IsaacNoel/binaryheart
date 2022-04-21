@@ -2,18 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import {
-  FacebookShareButton,
-  FacebookIcon,
-  PinterestShareButton,
-  PinterestIcon,
-  RedditShareButton,
-  RedditIcon,
-  WhatsappShareButton,
-  WhatsappIcon,
-  LinkedinShareButton,
-  LinkedinIcon,
-} from 'next-share';
 
 export default function Home() {
   return (
@@ -84,7 +72,7 @@ export default function Home() {
         <div className={styles.footericons}>
           <Link href="https://www.instagram.com/binaryheartnt/" target="_blank" rel="noreferrer noopener"><img title="Instagram" className={styles.scalingimageicon} src="/instagram.png" /></Link>
           <img className={styles.scalingimageicon} src={"/blank space.png"} />
-          <LinkedinShareButton href="https://www.linkedin.com/company/binaryheart/" url={'http://localhost:3000'} ><LinkedinIcon size={32} round /></LinkedinShareButton>
+          <Link href="https://www.linkedin.com/company/binaryheart/" target="_blank" rel="noreferrer noopener"><img title="LinkedIn" className={styles.scalingimageicon} src="/linkedin icon.png" /></Link>
           <img className={styles.scalingimageicon} src={"/blank space.png"} />
           <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org" target="_blank" rel="noreferrer noopener"><img title="Email" className={styles.scalingimageicon} src="/email square.png" /></Link>
           <img className={styles.scalingimageicon} src={"/blank space.png"} />
