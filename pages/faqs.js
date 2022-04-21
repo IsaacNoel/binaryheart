@@ -11,6 +11,18 @@ import {
     MDBIcon
 } from 'mdb-react-ui-kit';
 import Link from "next/link"
+import {
+    FacebookShareButton,
+    FacebookIcon,
+    PinterestShareButton,
+    PinterestIcon,
+    RedditShareButton,
+    RedditIcon,
+    WhatsappShareButton,
+    WhatsappIcon,
+    LinkedinShareButton,
+    LinkedinIcon,
+} from 'next-share';
 
 export default function Home(){
     return (
@@ -185,8 +197,20 @@ export default function Home(){
                 </Link>
             </main>
             <footer className={styles.footer}>
-                <Link href="https://www.instagram.com/binaryheartnt/"><img className={styles.scalingimageicon} src="/instagram.png" /></Link>
-                <Link href="https://www.linkedin.com/company/binaryheart/"><img className={styles.scalingimageicon} src="/linkedin icon.png" /></Link>
+                <div className={styles.footertext}>
+                    <h2><font color = "#ff0040">Binary</font><font color = "#193961">Heart</font></h2>
+                    <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org" target="_blank" rel="noreferrer noopener">contact@binaryheart.org</a></p>
+                    <p><a href="tel:+1-847-910-7044">847.910.7044</a></p>
+                </div>
+                <div className={styles.footericons}>
+                    <Link href="https://www.instagram.com/binaryheartnt/" target="_blank" rel="noreferrer noopener"><a title="Instagram" className={styles.fa fa-instagram}/></Link>
+                    <img className={styles.scalingimageicon} src={"/blank space.png"} />
+                    <Link href="https://www.linkedin.com/company/binaryheart/" target="_blank" rel="noreferrer noopener"><img title="LinkedIn" className={styles.scalingimageicon} src="/linkedin icon.png" /></Link>
+                    <img className={styles.scalingimageicon} src={"/blank space.png"} />
+                    <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org" target="_blank" rel="noreferrer noopener"><img title="Email" className={styles.scalingimageicon} src="/email square.png" /></Link>
+                    <img className={styles.scalingimageicon} src={"/blank space.png"} />
+                    <Link href="tel:+1-847-910-7044"><img title="Phone" className={styles.scalingimageicon} src="/phone.png" /></Link>
+                </div>
             </footer>
             </div>
 
