@@ -1,3 +1,5 @@
+
+
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
@@ -57,6 +59,8 @@ export default function Home() {
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
                       integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
                       crossOrigin="anonymous"/>
+                <meta name="Description"
+                      content="Author: Malachi Noel, Maryanne Xu, Artharva Metkar, Megan Lu, Isaac Noel"/>
             </Head>
             <main className={styles.main}>
                 <p className={styles.description}>
