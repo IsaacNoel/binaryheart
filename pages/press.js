@@ -108,13 +108,10 @@ export default function Home() {
                     <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/news/2021/05/19/new-trier-club-receives-service-award/">
                         BinaryHeart Receives Outstanding Youth Service Award! ⮕</a></b></p></h2>
 
-                    <div className ={styles.static_card}>
-
                     <p> The Volunteer Center, a North Shore non-profit volunteering organization,
                         awards BinaryHeart for our e-learning donations.</p>
-                    </div>
                 </td>
-
+                </p>
 
                 <div className ={styles.static_card}>
                     <p className={styles.description}>
@@ -195,7 +192,6 @@ export default function Home() {
                                         I&lsquo;m usually in charge of organization, whether on the task sheet or
                                         in the closet I spent an entire year setting up.
                                         By the way, I&lsquo;ve been to the North Pole!
-                                   
                                     </p>
                                 </td>
                             </tr>
