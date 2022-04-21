@@ -11,18 +11,6 @@ import {
     MDBIcon
 } from 'mdb-react-ui-kit';
 import Link from "next/link"
-import {
-    FacebookShareButton,
-    FacebookIcon,
-    PinterestShareButton,
-    PinterestIcon,
-    RedditShareButton,
-    RedditIcon,
-    WhatsappShareButton,
-    WhatsappIcon,
-    LinkedinShareButton,
-    LinkedinIcon,
-} from 'next-share';
 
 export default function Home(){
     return (
@@ -203,7 +191,7 @@ export default function Home(){
                     <p><a href="tel:+1-847-910-7044">847.910.7044</a></p>
                 </div>
                 <div className={styles.footericons}>
-                    <Link href="https://www.instagram.com/binaryheartnt/" target="_blank" rel="noreferrer noopener"><a title="Instagram" className={styles.fa fa-instagram}/></Link>
+                    <Link href="https://www.instagram.com/binaryheartnt/" target="_blank" rel="noreferrer noopener"><img title="Instagram" className={styles.scalingimageicon} src="/instagram.png" /></Link>
                     <img className={styles.scalingimageicon} src={"/blank space.png"} />
                     <Link href="https://www.linkedin.com/company/binaryheart/" target="_blank" rel="noreferrer noopener"><img title="LinkedIn" className={styles.scalingimageicon} src="/linkedin icon.png" /></Link>
                     <img className={styles.scalingimageicon} src={"/blank space.png"} />
