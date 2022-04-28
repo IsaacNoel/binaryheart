@@ -211,10 +211,10 @@
 .scalingimageiconemail {
   max-height: inherit;
   max-width: inherit;
-  margin: 1 px;
+  margin: 0;
   display: block;
   width: 3%;
-  height: 3%
+  height: 4%
 }
 
 @media (max-width: 700px) {
