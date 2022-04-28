@@ -14,8 +14,8 @@ export default function Home() {
           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
                 integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
                 crossOrigin="anonymous"/>
-          <meta name="Description"
-                content="Author: Malachi Noel, Maryanne Xu, Artharva Metkar, Megan Lu, Isaac Noel"/>
+            <meta name="Description"
+                  content="Author: Isaac Noel, Malachi Noel, Maryanne Xu, Megan Lu, Artharva Metkar"/>
         </Head>
 
         <main className={styles.main}>
@@ -38,12 +38,7 @@ export default function Home() {
               </a>
             </Link>
 
-            <Link href="/donate">
-              <a className={styles.card}>
-                <h2>Donate &rarr;</h2>
-                <p>Donate your old or unused tech</p>
-              </a>
-            </Link>
+
 
             <Link href="/contact">
               <a
@@ -55,6 +50,13 @@ export default function Home() {
                 </p>
               </a>
             </Link>
+
+          <Link href="/faq">
+              <a className={styles.card}>
+                  <h2>FAQ &rarr;</h2>
+                  <p>Let us answer some of your questions</p>
+              </a>
+          </Link>
 
             <Link href="/about">
               <a className={styles.card}>
