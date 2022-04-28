@@ -177,6 +177,7 @@ export default function Home() {
                     <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org" target="_blank" rel="noreferrer noopener"><img title="Email" className={styles.scalingimageicon} src="/email (1).png" /></Link>
                     <img className={styles.scalingimageicon} src={"/blank space.png"} />
                     <Link href="tel:+1-847-784-2363"><img title="Phone" className={styles.scalingimageicon} src="/phone.png" /></Link>
+                    //megan was here
                 </div>
             </footer>
         </div>
