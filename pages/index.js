@@ -76,7 +76,7 @@ export default function Home() {
           <img className={styles.scalingimageicon} src={"/blank space.png"} />
           <Link href="https://github.com/IsaacNoel/binaryheart" target="_blank" rel="noreferrer noopener"><img title="GitHub" className={styles.scalingimageicon} src="/github.png" /></Link>
           <img className={styles.scalingimageicon} src={"/blank space.png"} />
-          <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org" target="_blank" rel="noreferrer noopener"><img title="Email" className={styles.scalingimageicon} src="/email square.png" /></Link>
+          <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org" target="_blank" rel="noreferrer noopener"><img title="Email" className={styles.scalingimageiconemail} src="/email.png" /></Link>
           <img className={styles.scalingimageicon} src={"/blank space.png"} />
           <Link href="tel:+1-847-910-7044"><img title="Phone" className={styles.scalingimageicon} src="/phone.png" /></Link>
         </div>
