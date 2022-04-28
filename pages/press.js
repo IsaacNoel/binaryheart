@@ -65,6 +65,8 @@ export default function Home() {
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
                       integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
                       crossOrigin="anonymous"/>
+                <meta name="Description"
+                      content="Author: Malachi Noel, Maryanne Xu, Artharva Metkar, Megan Lu, Isaac Noel"/>
             </Head>
 
             <main className={styles.main}>
@@ -96,42 +98,28 @@ export default function Home() {
                     </p>
 
                 </div>
+                <p className={styles.static_card}
+                   style={{
+                       border: "1px solid #C8F0C8",
+                       "background-color": "rgb(200, 240, 200)"
+                   }}
+                >
+                    <td width="40%">
+                        <img className={styles.scalingimage} src="/service award.png" alt="service award" />
+                    </td>
+                    <p><b> <a className={styles.maryanne} href="https://hu-hu.facebook.com/newtrieref/videos/binaryheart-outstanding-youth-volunteer-awards-video/274212744104600/">
+                        Watch the video here!</a></b></p>
+                <td>
+                    <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/news/2021/05/19/new-trier-club-receives-service-award/">
+                        BinaryHeart Receives Outstanding Youth Service Award! ⮕</a></b></p></h2>
+                    <p> The Volunteer Center, a North Shore non-profit volunteering organization,
+                        awards BinaryHeart for our e-learning donations.</p>
+                </td>
+                </p>
 
                 <div className ={styles.static_card}>
-
                     <p className={styles.description}>
                         <table>
-                            <tr>
-
-                                <td width="40%">
-                                    <img className={styles.scalingimage} src="/service award.png" alt="service award" />
-                                </td>
-                                <td>
-                                    <div className={styles.pressChart}>
-                                        <td width="25%">
-                                            <p> photo </p>
-                                        </td>
-
-                                        <td>
-                                            <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/news/2021/05/19/new-trier-club-receives-service-award/">
-                                                BinaryHeart Receives Outstanding Youth Service Award! ⮕</a></b></p></h2>
-
-                                            <p> The Volunteer Center, a North Shore non-profit volunteering organization,
-                                                awards BinaryHeart for our e-learning donations.</p>
-
-                                            <p></p>
-
-                                            <p><b> <a className={styles.maryanne} href="https://hu-hu.facebook.com/newtrieref/videos/binaryheart-outstanding-youth-volunteer-awards-video/274212744104600/">
-                                                Watch the video here!</a></b></p>
-                                            <br/>
-                                            <br/>
-                                            <br/>
-                                        </td>
-
-                                    </div>
-                                </td>
-
-                            </tr>
                             <tr>
                                 <td width="30%">
                                     <p> photo </p>
@@ -164,7 +152,7 @@ export default function Home() {
                                         I&lsquo;ve volunteered for BinaryHeart for two years now.
                                         When not fixing computers, I work on our website,
                                         manage our inventory system, and have plans for chapter expansion.
-                                        .</p>
+                                        </p>
                                 </td>
                             </tr>
                             <tr>
@@ -178,7 +166,7 @@ export default function Home() {
                                         I&lsquo;m usually in charge of organization, whether on the task sheet or
                                         in the closet I spent an entire year setting up.
                                         By the way, I&lsquo;ve been to the North Pole!
-                                        .</p>
+                                    </p>
                                 </td>
                             </tr>
                         </table>
