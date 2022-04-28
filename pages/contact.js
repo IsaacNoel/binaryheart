@@ -16,7 +16,7 @@ export default function Home() {
     return (
         <div className={styles.container}>
             <header>
-                <MDBNavbar expand='lg' light bgColor='white'>
+                <MDBNavbar expand='md' light bgColor="white">
                     <MDBContainer fluid>
                         <MDBNavbarToggler
                             aria-controls='navbarExample01'
@@ -26,23 +26,23 @@ export default function Home() {
                             <MDBIcon fas icon='bars' />
                         </MDBNavbarToggler>
                         <div className='collapse navbar-collapse headerdiv' id='navbarExample01'>
-                            <MDBNavbarNav right className='mb-1 mb-lg-0'>
+                            <MDBNavbarNav right className='mb-2 mb-lg-0'>
                                 <MDBNavbarItem active>
                                     <MDBNavbarLink aria-current='page' href='/'>
                                         Home
                                     </MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/about'>About us</MDBNavbarLink>
-                                </MDBNavbarItem>
-                                <MDBNavbarItem>
                                     <MDBNavbarLink href='/press'>Press</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/products'>Products</MDBNavbarLink>
+                                    <MDBNavbarLink href='/donate'>Donate</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/donate'>Donate</MDBNavbarLink>
+                                    <MDBNavbarLink href='/contact'>Contact Us</MDBNavbarLink>
+                                </MDBNavbarItem>
+                                <MDBNavbarItem>
+                                    <MDBNavbarLink href='/about'>About</MDBNavbarLink>
                                 </MDBNavbarItem>
                             </MDBNavbarNav>
                         </div>
@@ -57,14 +57,21 @@ export default function Home() {
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
                       integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
                       crossOrigin="anonymous"/>
+                <meta name="Description"
+                      content="Author: Isaac Noel, Malachi Noel, Maryanne Xu, Megan Lu, Artharva Metkar"/>
             </Head>
             <main className={styles.main}>
-                <p className={styles.description}>
-                    Email us questions and donations at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org</a>
+                <p className={styles.centereddesc}>
+                    Email us about questions and donations at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org (Gmail Link)</a><br/>
+                    Also see: <Link href="/faqs">Frequently asked questions</Link>
                 </p>
-                <p>Click the email above to automatically open up gmail</p>
-                <p className={styles.description}><Link href="/faqs"> Frequently asked questions</Link></p>
-
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLScG1w-t5g9lkYdlXtxsyYcazWpu8GuuzkHM_GtQO9th8WVjPQ/viewform?embedded=true"
+                    width="1000" height="1000" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
+                </iframe>
+                <p className={styles.container}>
+                    If you have any questions about the website itself, you can also find the developers at our <a href={"https://github.com/IsaacNoel/binaryheart"}>GitHub page</a>
+                </p>
                 <Link href="/">
                     <a className={styles.card}>
                         <h2>Back to the launch page &rarr;</h2>
