@@ -83,7 +83,43 @@
   text-align: left;
 
 }
+
+.pressChart {
+  margin-top: 15%;
+  margin-bottom: 15%;
+  margin-left: 5%;
+  margin-bottom: 25%;
+  
+}
+.centereddesc {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  text-align: center;
+}
+
+.pressDate {
+  color: dimgrey;
+  font-size: 18px;
+}
+
+.pressBig {
+  font-size: 50px;
+}
+
+.pressSub {
+  font-size: 25px;
+  color: dimgrey;
+}
+
 .description a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.centereddesc a {
   color: #0070f3;
   text-decoration: none;
 }
@@ -91,6 +127,12 @@
 .description a:hover,
 .description a:focus,
 .description a:active {
+  text-decoration: underline;
+}
+
+.centereddesc a:hover,
+.centereddesc a:focus,
+.centereddesc a:active {
   text-decoration: underline;
 }
 
@@ -237,3 +279,14 @@
 
   }
 }
+
+/*
+@keyframes fade-in-from-bottom {
+  from {opacity: 0}
+  to   {opacity: 1}
+}
+
+fade-in-from-bottom.use {
+  animation: fade-in-from-bottom 2s ease-out;
+}
+ */
