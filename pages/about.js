@@ -57,6 +57,8 @@ export default function Home() {
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
                       integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
                       crossOrigin="anonymous"/>
+                <meta name="Description"
+                      content="Author: Isaac Noel, Malachi Noel, Maryanne Xu, Megan Lu, Artharva Metkar"/>
             </Head>
 
             <main className={styles.main}>
@@ -75,61 +77,9 @@ export default function Home() {
                     the devices are donated to help our less privileged
                     peers. Our hope is that our work will lift people out
                     of poverty, make higher education a reality for more
-                    students, and change lives.
+                    students, and change lives. Check out the <Link href="/press">
+                    press</Link> page to see what we have done!
                 </p>
-
-                <div
-                    className ={styles.static_card}
-                    style={{
-                        border: "1px solid #f57192",
-                        "background-color": "rgb(255, 240, 243)"
-                    }}
-                >
-                    <h1>
-                        <center>We&lsquo;ve done some cool stuff</center>
-                    </h1>
-                    <p className={styles.description}>
-                        We have... donated to some cool places, including Kenya. Check out these pictures!
-                        For our contributions, we won some cool awards too.
-                    </p>
-                    <p className={styles.description}>
-                        <table>
-                            <tr>
-                                <td width="50%">
-                                    <img className={styles.scalingimage} src="/656348main_ToV_transit_diag_full.jpg" />
-                                </td>
-                                <td>
-                                    <p><center>descriptions</center></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="50%">
-                                    <p><center>descriptions</center></p>
-                                </td>
-                                <td width="50%">
-                                    <img className={styles.scalingimage} src="/656348main_ToV_transit_diag_full.jpg" />
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td width="50%">
-                                    <img className={styles.scalingimage} src="/656348main_ToV_transit_diag_full.jpg" />
-                                </td>
-                                <td>
-                                    <p><center>descriptions</center></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="50%">
-                                    <p><center>descriptions</center></p>
-                                </td>
-                                <td width="50%">
-                                    <img className={styles.scalingimage} src="/656348main_ToV_transit_diag_full.jpg" />
-                                </td>
-                            </tr>
-                        </table>
-                    </p>
-                </div>
 
                 <div className ={styles.static_card}>
                     <h1>
