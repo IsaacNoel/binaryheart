@@ -240,3 +240,14 @@
 
   }
 }
+
+/*
+@keyframes fade-in-from-bottom {
+  from {opacity: 0}
+  to   {opacity: 1}
+}
+
+fade-in-from-bottom.use {
+  animation: fade-in-from-bottom 2s ease-out;
+}
+ */
