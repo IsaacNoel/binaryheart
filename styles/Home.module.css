@@ -21,6 +21,23 @@
   align-items: center;
 }
 
+.footericons {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+.footericons a:hover {
+  opacity: 0.5;
+}
+
+.footertext {
+  text-align: left;
+  text-align-last: left;
+  margin: 0;
+  line-height: 1;
+}
+
 .footer a {
   display: flex;
   justify-content: center;
@@ -222,8 +239,15 @@
   margin: auto;
   display: block;
   width: 90%
+}
 
-
+.scalingimageicon {
+  max-height: inherit;
+  max-width: inherit;
+  margin: 0;
+  display: block;
+  width: 3%;
+  height: 3%
 }
 
 @media (max-width: 700px) {

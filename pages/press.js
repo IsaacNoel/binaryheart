@@ -234,6 +234,10 @@ export default function Home() {
                     </a>
                 </Link>
             </main>
+            <footer className={styles.footer}>
+                <Link href="https://www.instagram.com/binaryheartnt/"><img className={styles.scalingimageicon} src="/instagram.png" /></Link>
+                <Link href="https://www.linkedin.com/company/binaryheart/"><img className={styles.scalingimageicon} src="/linkedin icon.png" /></Link>
+            </footer>
 
 
 
