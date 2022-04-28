@@ -160,7 +160,7 @@ export default function Home() {
                                             Women in BinaryHeart ⮕</a></b></p></h2>
 
                                         <p> In an interview with BH members Maryanne Xu and Isabella Allada, the New Trier
-                                            News discusses Katherine Johnson's legacy for women pursuing STEM.</p>
+                                            News discusses Katherine Johnson&lsquo;s legacy for women pursuing STEM.</p>
 
                                     </div>
                                 </td>
@@ -177,7 +177,7 @@ export default function Home() {
                                         <h2><p><b> <a className={styles.maryanne} href="https://abc7chicago.com/new-trier-high-school-after-clubs-student-computer-refurbishment/4512319/">
                                             We debut on Abc7 News! ⮕</a></b></p></h2>
 
-                                        <p> Read more for the founders' original goals and future hopes for the club. </p>
+                                        <p> Read more for the founders&lsquo; original goals and future hopes for the club. </p>
 
                                     </div>
                                 </td>
@@ -193,7 +193,7 @@ export default function Home() {
                                         <h2><p><b> <a className={styles.maryanne} href="https://www.chicagotribune.com/suburbs/winnetka/ct-wtk-binary-heart-tl-0830-story.html">
                                             Our origin story ⮕</a></b></p></h2>
 
-                                        <p> The Chicago Tribune interviews BinaryHeart's first members on how the club was founded. </p>
+                                        <p> The Chicago Tribune interviews BinaryHeart&lsquo;s first members on how the club was founded. </p>
 
                                     </div>
                                 </td>
