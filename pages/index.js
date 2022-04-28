@@ -43,13 +43,13 @@ export default function Home() {
             </a>
           </Link>
 
-          <Link href="/contact">
+          <Link href="/faq">
            <a
             className={styles.card}
           >
-            <h2>Contact Us &rarr;</h2>
+            <h2>FAQ &rarr;</h2>
             <p>
-              Want to receive old tech? Get in contact!
+              Some frequently asked questions.
             </p>
           </a>
           </Link>
