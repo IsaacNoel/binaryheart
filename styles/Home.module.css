@@ -69,6 +69,7 @@
 
 .pressChart {
   margin-top: 15%;
+  margin-bottom: 15%;
   margin-left: 5%;
   margin-bottom: 25%;
   
@@ -80,6 +81,20 @@
   padding-left: 5rem;
   padding-right: 5rem;
   text-align: center;
+}
+
+.pressDate {
+  color: dimgrey;
+  font-size: 18px;
+}
+
+.pressBig {
+  font-size: 50px;
+}
+
+.pressSub {
+  font-size: 25px;
+  color: dimgrey;
 }
 
 .description a {
