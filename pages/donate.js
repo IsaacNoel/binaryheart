@@ -1,3 +1,5 @@
+
+
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
@@ -16,7 +18,7 @@ export default function Home() {
     return (
         <div className={styles.container}>
             <header>
-                <MDBNavbar expand='lg' light bgColor='white'>
+                <MDBNavbar expand='md' light bgColor="white">
                     <MDBContainer fluid>
                         <MDBNavbarToggler
                             aria-controls='navbarExample01'
@@ -26,23 +28,23 @@ export default function Home() {
                             <MDBIcon fas icon='bars' />
                         </MDBNavbarToggler>
                         <div className='collapse navbar-collapse headerdiv' id='navbarExample01'>
-                            <MDBNavbarNav right className='mb-1 mb-lg-0'>
+                            <MDBNavbarNav right className='mb-2 mb-lg-0'>
                                 <MDBNavbarItem active>
                                     <MDBNavbarLink aria-current='page' href='/'>
                                         Home
                                     </MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/about'>About us</MDBNavbarLink>
-                                </MDBNavbarItem>
-                                <MDBNavbarItem>
                                     <MDBNavbarLink href='/press'>Press</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/products'>Products</MDBNavbarLink>
+                                    <MDBNavbarLink href='/donate'>Donate</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/donate'>Donate</MDBNavbarLink>
+                                    <MDBNavbarLink href='/contact'>Contact Us</MDBNavbarLink>
+                                </MDBNavbarItem>
+                                <MDBNavbarItem>
+                                    <MDBNavbarLink href='/about'>About</MDBNavbarLink>
                                 </MDBNavbarItem>
                             </MDBNavbarNav>
                         </div>
@@ -57,6 +59,8 @@ export default function Home() {
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
                       integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
                       crossOrigin="anonymous"/>
+                <meta name="Description"
+                      content="Author: Isaac Noel, Malachi Noel, Maryanne Xu, Megan Lu, Artharva Metkar"/>
             </Head>
             <main className={styles.main}>
                 <p className={styles.description}>

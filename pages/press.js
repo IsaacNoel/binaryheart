@@ -58,6 +58,8 @@ export default function Home() {
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
                       integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
                       crossOrigin="anonymous"/>
+                <meta name="Description"
+                      content="Author: Malachi Noel, Maryanne Xu, Artharva Metkar, Megan Lu, Isaac Noel"/>
             </Head>
 
             <main className={styles.main}>
@@ -91,12 +93,30 @@ export default function Home() {
                     </p>
 
                 </div>
+                <p className={styles.static_card}
+                   style={{
+                       border: "1px solid #C8F0C8",
+                       "background-color": "rgb(200, 240, 200)"
+                   }}
+                >
+                    <td width="40%">
+                        <img className={styles.scalingimage} src="/service award.png" alt="service award" />
+                    </td>
+                    <p><b> <a className={styles.maryanne} href="https://hu-hu.facebook.com/newtrieref/videos/binaryheart-outstanding-youth-volunteer-awards-video/274212744104600/">
+                        Watch the video here!</a></b></p>
+                <td>
+                    <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/news/2021/05/19/new-trier-club-receives-service-award/">
+                        BinaryHeart Receives Outstanding Youth Service Award! ⮕</a></b></p></h2>
+                    <p> The Volunteer Center, a North Shore non-profit volunteering organization,
+                        awards BinaryHeart for our e-learning donations.</p>
+                </td>
+                </p>
 
                 <div className ={styles.static_card}>
-
                     <p className={styles.description}>
                         <table>
                             <tr>
+
                                 <td width="40%">
                                     <img className={styles.scalingimage} src="/service award.png" alt="service award" />
                                 </td>
@@ -133,7 +153,8 @@ export default function Home() {
                             </tr>
                             <tr>
                                 <td width="40%">
-                                    <img className={styles.scalingimage} src="/covid workstation.jpg" alt="covid workstation" />
+                                    <img className={styles.scalingimage} src="/covid workstation.jpg" alt="covid workstation" />         
+
                                 </td>
                                 <td>
 
@@ -172,6 +193,7 @@ export default function Home() {
                                 </td>
                                 <td>
 
+
                                     <div className={styles.pressChart}>
                                         <p className={styles.pressDate}> OCTOBER 23, 2018</p>
                                         <h2><p><b> <a className={styles.maryanne} href="https://abc7chicago.com/new-trier-high-school-after-clubs-student-computer-refurbishment/4512319/">
@@ -180,6 +202,8 @@ export default function Home() {
                                         <p> Read more for the founders&lsquo; original goals and future hopes for the club. </p>
 
                                     </div>
+
+
                                 </td>
                             </tr>
                             <tr>
@@ -187,6 +211,7 @@ export default function Home() {
                                     <img className={styles.scalingimage} src="/origin.jpg" alt="first devices" />
                                 </td>
                                 <td>
+
 
                                     <div className={styles.pressChart}>
                                         <p className={styles.pressDate}> AUGUST 24, 2018</p>
@@ -196,6 +221,7 @@ export default function Home() {
                                         <p> The Chicago Tribune interviews BinaryHeart&lsquo;s first members on how the club was founded. </p>
 
                                     </div>
+
                                 </td>
                             </tr>
                         </table>
