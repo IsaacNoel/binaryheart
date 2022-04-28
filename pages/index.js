@@ -31,29 +31,26 @@ export default function Home() {
           </p>
 
           <div className={styles.grid}>
-            <Link href="/press">
-              <a className={styles.card}>
-                <h2>Press &rarr;</h2>
-                <p>See our press coverage in the news</p>
-              </a>
-            </Link>
-
-
 
             <Link href="/contact">
-              <a
-                  className={styles.card}
-              >
+              <a className={styles.card}>
                 <h2>Contact Us &rarr;</h2>
                 <p>
-                  Want to receive old tech? Get in contact!
+                  Want to donate or receive old tech? Get in contact!
                 </p>
               </a>
             </Link>
 
-          <Link href="/faq">
+          <Link href="/press">
               <a className={styles.card}>
-                  <h2>FAQ &rarr;</h2>
+                  <h2>Press &rarr;</h2>
+                  <p>See our press coverage in the news</p>
+              </a>
+          </Link>
+
+          <Link href="/faqs">
+              <a className={styles.card}>
+                  <h2>Faqs &rarr;</h2>
                   <p>Let us answer some of your questions</p>
               </a>
           </Link>
