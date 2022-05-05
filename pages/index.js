@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-      <div className={styles.container}>
+      <div className={styles.container} id="animated">
         <Head>
           <title>BinaryHeart</title>
           <meta name="description" content="Bridging the digital divide" />
@@ -46,7 +46,7 @@ export default function Home() {
               >
                 <h2>Contact Us &rarr;</h2>
                 <p>
-                  Want to receive old tech? Get in contact!
+                  Want to donate or receive old tech? Get in contact!
                 </p>
               </a>
             </Link>
