@@ -15,7 +15,7 @@ import Link from "next/link"
 export default function Home(){
     return (
 
-        <div className={styles.container}>
+        <div className={styles.container} id="animated">
 
             <header>
                 <MDBNavbar expand='md' light bgColor="white">
