@@ -46,7 +46,7 @@ export default function Home() {
               >
                 <h2>Contact Us &rarr;</h2>
                 <p>
-                  Want to receive old tech? Get in contact!
+                  Want to donate or receive old tech? Get in contact!
                 </p>
               </a>
             </Link>

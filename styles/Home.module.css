@@ -23,9 +23,9 @@
 
 .footericons {
   display: flex;
-  flex: 1 0 auto;
   justify-content: right;
   align-items: right;
+  white-space: pre-line;
 }
 
 .footericons a:hover {
