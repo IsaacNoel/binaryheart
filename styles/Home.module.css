@@ -24,7 +24,7 @@
 .footericons {
   display: flex;
   justify-content: right;
-  align-items: right;
+  float: right;
 }
 
 .footericons a:hover {
@@ -71,7 +71,7 @@
 
 .title,
 .description {
-   text-align: center; 
+  text-align: center;
 }
 
 .description {
@@ -89,7 +89,7 @@
   margin-bottom: 15%;
   margin-left: 5%;
   margin-bottom: 25%;
-  
+
 }
 .centereddesc {
   margin: 4rem 0;
@@ -152,7 +152,7 @@
   padding: 0.75rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {
@@ -205,6 +205,7 @@
 .card:focus,
 .card:active {
   color: #0070f3;
+  text-decoration: none;
   border-color: #0070f3;
 }
 
