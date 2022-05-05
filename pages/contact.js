@@ -67,7 +67,7 @@ export default function Home() {
                 </p>
                 <iframe
                     src="https://docs.google.com/forms/d/e/1FAIpQLScG1w-t5g9lkYdlXtxsyYcazWpu8GuuzkHM_GtQO9th8WVjPQ/viewform?embedded=true"
-                    width = "90%" max-width="1000" height="1000" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
+                    className = {styles.googleform}   frameBorder="0" marginHeight="0" marginWidth="0">Loading…
                 </iframe>
                 <p className={styles.container}>
                     If you have any questions about the website itself, you can also find the developers at our <a href={"https://github.com/IsaacNoel/binaryheart"}>GitHub page</a>
