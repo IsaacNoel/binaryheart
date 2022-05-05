@@ -253,6 +253,12 @@
   height: 3%;
   min-width: 22px;
 }
+.googleform {
+  width: 100%;
+  max-width:1000px;
+  height:1000px;
+
+}
 
 @media (max-width: 700px) {
   .description {
@@ -262,6 +268,12 @@
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: left;
+  }
+  .googleform {
+    width: 100%;
+    max-width:700px;
+    height:700px;
+
   }
   .static_card {
     margin: 1rem 1rem;
