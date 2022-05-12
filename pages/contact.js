@@ -82,7 +82,8 @@ export default function Home() {
                     </Link>
                 </div>
                 <div>
-                <br/>
+                    <br/>
+                    <br/>
                 </div>
                 <Link href="/">
                     <a className={styles.card}>
