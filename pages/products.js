@@ -27,23 +27,29 @@ export default function Home() {
                         </MDBNavbarToggler>
                         <div className='collapse navbar-collapse headerdiv' id='navbarExample01'>
                             <MDBNavbarNav right className='mb-2 mb-lg-0'>
-                                <MDBNavbarItem active>
-                                    <MDBNavbarLink aria-current='page' href='/'>
-                                        Home
-                                    </MDBNavbarLink>
-                                </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/about'>About us</MDBNavbarLink>
+                                    <MDBNavbarLink href='/'>Home</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
                                     <MDBNavbarLink href='/press'>Press</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/contact'>Contact us</MDBNavbarLink>
-                                </MDBNavbarItem>
-
-                                <MDBNavbarItem>
                                     <MDBNavbarLink href='/donate'>Donate</MDBNavbarLink>
+                                </MDBNavbarItem>
+                                <MDBNavbarItem>
+                                    <MDBNavbarLink href='/contact'>Contact Us</MDBNavbarLink>
+                                </MDBNavbarItem>
+                                <MDBNavbarItem>
+                                    <MDBNavbarLink href='/about'>About</MDBNavbarLink>
+                                </MDBNavbarItem>
+                                <MDBNavbarItem>
+                                    <MDBNavbarLink href='/faqs'>FAQs</MDBNavbarLink>
+                                </MDBNavbarItem>
+                                <MDBNavbarItem active>
+                                    <MDBNavbarLink aria-current='page' href='/products'>Products</MDBNavbarLink>
+                                </MDBNavbarItem>
+                                <MDBNavbarItem>
+                                    <MDBNavbarLink href='/newmembers'>New Members</MDBNavbarLink>
                                 </MDBNavbarItem>
                             </MDBNavbarNav>
                         </div>
