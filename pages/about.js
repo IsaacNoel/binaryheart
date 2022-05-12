@@ -63,7 +63,6 @@ export default function Home() {
 
             <main className={styles.main}>
 
-
                 <h1 className={styles.pressBig}>
                     <b>About Us</b>
                 </h1>
@@ -76,7 +75,7 @@ export default function Home() {
                   we re-donate those devices to low-income schools. Check out the <Link href="/press">
                     press page</Link> to see what we&lsquo;ve done!
                 </p>
-
+            <div className={styles.mobilehide}>
                 <div className ={styles.static_card}>
                     <h1>
                         <b><center>Student Leaders</center></b>
@@ -147,6 +146,59 @@ export default function Home() {
                             </tr>
                         </table>
                     </p>
+                </div>
+            </div>
+                <div className={styles.mobileshow}>
+                    <div className ={styles.static_card}>
+                        <h1>
+                            <b><center>Student Leaders</center></b>
+                        </h1>
+
+                        <p className={styles.description}>
+
+                                        <img className={styles.scalingimage} src="/maryanne.jpg" alt="Maryanne" />
+
+                                        <b> Maryanne Xu </b>
+                                        <p> Hi everyone! I&lsquo;m a senior at New Trier High School.
+                                            I volunteered for BinaryHeart for four years.
+                                            During club meetings, I allocate tasks, run club logistics, and work on this website!
+                                            I can hold my breath for 2 hours.</p>
+
+                                        <img className={styles.scalingimage} src="/nicholas.jpg" alt="Nicholas" />
+
+                                        <b> Nicholas Sutherland </b>
+                                        <p>Howdy! I&lsquo;m Nicholas, a senior at New Trier High School,
+                                            and this is my third year at BinaryHeart. I usually end up building shelves,
+                                            organizing screwdrivers, and working on our workspace during club.
+                                            Oh yeah, and I invented the microwave burrito.</p>
+
+                                        <p> photo </p>
+
+                                        <b> Rom Fradkin </b>
+                                        <p>Rom Fradkin (5’ 9’’, 150lbs) is a senior at New Trier High School.
+                                            He&lsquo;s volunteered for BinaryHeart since freshman year. He owns four cows.</p>
+
+                                        <p> photo </p>
+
+                                        <b> Julia Hudson  </b>
+                                        <p>Hey! I&lsquo;m Julia, a sophomore at New Trier High School.
+                                            I&lsquo;ve volunteered for BinaryHeart for two years now.
+                                            When not fixing computers, I work on our website,
+                                            manage our inventory system, and have plans for chapter expansion.
+                                            .</p>
+
+                                        <img className={styles.scalingimage} src="/andrew.jpg" alt="Andrew" />
+
+                                        <b> Andrew Gill </b>
+                                        <p>Hello, I&lsquo;m Andrew! :) I&lsquo;m a senior at New Trier High School,
+                                            and I&lsquo;ve been in the club since my sophomore year.
+                                            I&lsquo;m usually in charge of organization, whether on the task sheet or
+                                            in the closet I spent an entire year setting up.
+                                            By the way, I&lsquo;ve been to the North Pole!
+                                            .</p>
+
+                        </p>
+                    </div>
                 </div>
 
                 <div

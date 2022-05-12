@@ -185,7 +185,7 @@
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 .static_card_press {
-  margin: 2rem 5rem;
+  margin: 4.5% 4.5%;
   padding-top: 1%;
   padding-bottom: 1%;
   text-align: left;
@@ -281,8 +281,23 @@
   height:1000px;
 
 }
+.mobileshow{
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
 
 @media (max-width: 700px) {
+  .mobilehide {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+  .mobileshow {
+    visibility: visible;
+    height: auto;
+    width: auto;
+  }
   .description {
     margin: 4rem 0;
     line-height: 1.5;
@@ -299,7 +314,7 @@
 
   }
   .static_card {
-    margin: 1rem 1rem;
+    margin: 4.5% 4.5%;
     padding: 1.5rem;
     text-align: left;
     text-decoration: none;
