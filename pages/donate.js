@@ -67,7 +67,36 @@ export default function Home() {
                       integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
                       crossOrigin="anonymous"/>
             </Head>
-            
+            <main className={styles.main}>
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLScG1w-t5g9lkYdlXtxsyYcazWpu8GuuzkHM_GtQO9th8WVjPQ/viewform?embedded=true"
+                    width="1000" height="1000" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
+                </iframe>
+                <Link href="/">
+                    <a className={styles.card}>
+                        <h2>Back to the launch page &rarr;</h2>
+                    </a>
+                </Link>
+            </main>
+            <footer className={styles.footer}>
+                <div className={styles.footertext}>
+                    <h2><font color = "#ff0040">Binary</font><font color = "#0000FF">Heart</font></h2>
+                    <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org" target="_blank" rel="noreferrer noopener">contact@binaryheart.org</a></p>
+                    <p><a href="tel:+1-847-784-2363">847.784.2363</a></p>
+                </div>
+                <div className={styles.footericons}>
+                    <Link href="https://www.instagram.com/binaryheartnt/" target="_blank" rel="noreferrer noopener"><img title="Instagram" className={styles.scalingimageicon} src="/instagram.png" /></Link>
+                    <img className={styles.scalingimageicon} src={"/blank space.png"} />
+                    <Link href="https://www.linkedin.com/company/binaryheart/" target="_blank" rel="noreferrer noopener"><img title="LinkedIn" className={styles.scalingimageicon} src="/linkedin icon.png" /></Link>
+                    <img className={styles.scalingimageicon} src={"/blank space.png"} />
+                    <Link href="https://github.com/IsaacNoel/binaryheart" target="_blank" rel="noreferrer noopener"><img title="GitHub" className={styles.scalingimageicon} src="/github.png" /></Link>
+                    <img className={styles.scalingimageicon} src={"/blank space.png"} />
+                    <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org" target="_blank" rel="noreferrer noopener"><img title="Email" className={styles.scalingimageicon} src="/email (1).png" /></Link>
+                    <img className={styles.scalingimageicon} src={"/blank space.png"} />
+                    <Link href="tel:+1-847-784-2363"><img title="Phone" className={styles.scalingimageicon} src="/phone.png" /></Link>
+                </div>
+            </footer>
+
         </div>
     )
 }

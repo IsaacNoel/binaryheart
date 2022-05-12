@@ -65,17 +65,30 @@ export default function Home() {
                       content="Author: Isaac Noel, Malachi Noel, Maryanne Xu, Megan Lu, Atharva Metkar"/>
             </Head>
             <main className={styles.main}>
+                <h2 className={styles.semititle}>
+                    Contact Us
+                </h2>
                 <p className={styles.centereddesc}>
-                    Email us about questions and donations at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org (Gmail Link)</a><br/>
-                    Also see: <Link href="/faqs">Frequently asked questions</Link>
+                    Email us about questions and donations at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org (Gmail Link)</a>
                 </p>
-                <iframe
-                    src="https://docs.google.com/forms/d/e/1FAIpQLScG1w-t5g9lkYdlXtxsyYcazWpu8GuuzkHM_GtQO9th8WVjPQ/viewform?embedded=true"
-                    width = "90%" max-width="1000" height="1000" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
-                </iframe>
-                <p className={styles.container}>
-                    If you have any questions about the website itself, you can also find the developers at our <a href={"https://github.com/IsaacNoel/binaryheart"}>GitHub page</a>
-                </p>
+                <div className={styles.grid}>
+                    <Link href="/donate">
+                        <a className={styles.card}>
+                            <h2>Donate &rarr;</h2>
+                            <p>Help our cause by donating your old devices</p>
+                        </a>
+                    </Link>
+                    <Link href="/request">
+                        <a className={styles.card}>
+                            <h2>Request &rarr;</h2>
+                            <p>How can we help you meet your technology needs?</p>
+                        </a>
+                    </Link>
+                </div>
+                <div>
+                    <br/>
+                    <br/>
+                </div>
                 <Link href="/">
                     <a className={styles.card}>
                         <h2>Back to the launch page &rarr;</h2>
@@ -84,7 +97,7 @@ export default function Home() {
             </main>
             <footer className={styles.footer}>
                 <div className={styles.footertext}>
-                    <h2><font color = "#ff0040">Binary</font><font color = "DodgerBlue">Heart</font></h2>
+                    <h2><font color = "#ff0040">Binary</font><font color = "#0000FF">Heart</font></h2>
                     <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org" target="_blank" rel="noreferrer noopener">contact@binaryheart.org</a></p>
                     <p><a href="tel:+1-847-784-2363">847.784.2363</a></p>
                 </div>
