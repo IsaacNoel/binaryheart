@@ -59,7 +59,7 @@ export default function Home() {
                       integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
                       crossOrigin="anonymous"/>
                 <meta name="Description"
-                      content="Author: Malachi Noel, Maryanne Xu, Artharva Metkar, Megan Lu, Isaac Noel"/>
+                      content="Author: Malachi Noel, Maryanne Xu, Atharva Metkar, Megan Lu, Isaac Noel"/>
             </Head>
 
             <main className={styles.main}>
