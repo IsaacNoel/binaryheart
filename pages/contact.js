@@ -61,6 +61,9 @@ export default function Home() {
                       content="Author: Isaac Noel, Malachi Noel, Maryanne Xu, Megan Lu, Artharva Metkar"/>
             </Head>
             <main className={styles.main}>
+                <h2 className={styles.semititle}>
+                    Contact Us
+                </h2>
                 <p className={styles.centereddesc}>
                     Email us about questions and donations at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org (Gmail Link)</a>
                 </p>
@@ -78,9 +81,6 @@ export default function Home() {
                         </a>
                     </Link>
                 </div>
-                <p className={styles.container}>
-                    If you have any questions about the website itself, you can also find the developers at our <a href={"https://github.com/IsaacNoel/binaryheart"}>GitHub page</a>
-                </p>
                 <Link href="/">
                     <a className={styles.card}>
                         <h2>Back to the launch page &rarr;</h2>
