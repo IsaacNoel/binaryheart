@@ -61,8 +61,10 @@ export default function Home() {
                 <meta name="Description"
                       content="Author: Malachi Noel, Maryanne Xu, Atharva Metkar, Megan Lu, Isaac Noel"/>
             </Head>
+            <main>
+            <div className={styles.mobilehide}>
+            <div className={styles.main}>
 
-            <main className={styles.main}>
 
 
                 <h1 className={styles.pressBig}>
@@ -210,12 +212,140 @@ export default function Home() {
                         </table>
                     </p>
                 </div>
+            </div>
 
                 <Link href="/">
                     <a className={styles.card}>
                         <h2>Back to the launch page &rarr;</h2>
                     </a>
                 </Link>
+
+            </div>
+                <div className={styles.mobileshow}>
+                    <div className={styles.main}>
+
+
+
+                        <h1 className={styles.pressBig}>
+                            <b>BinaryHeart in the News!</b>
+                        </h1>
+
+                        <p className={styles.pressSub}>
+                            <br/>
+
+                            Follow along our journey to<code className={styles.code}>spread digital
+                            access</code>.
+
+                            Check out our latest news updates here!
+                        </p>
+
+                        <div
+                            className ={styles.static_card}
+                            style={{
+                                border: "1px solid #f57192",
+                                "background-color": "rgb(255, 240, 243)"
+
+                            }}
+                        >
+                            <h3>
+                                <b><center>Press Inquiries</center></b>
+                            </h3>
+                            <p className={styles.description}>
+                                If you&lsquo;re a member of the press, please email us at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org</a>.
+                            </p>
+
+                        </div>
+
+
+                        <div className ={styles.static_card_press}>
+                            <p className={styles.description}>
+
+                                            <img className={styles.scalingimage} src="/service award.png" alt="service award" />
+
+                                            <div className={styles.pressChart}>
+                                                <p className={styles.pressDate}> MAY 19, 2021</p>
+                                                <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/news/2021/05/19/new-trier-club-receives-service-award/">
+                                                    BinaryHeart receives Outstanding Youth Service Award! ⮕</a></b></p></h2>
+
+                                                <p> The Volunteer Center, a North Shore non-profit volunteering organization,
+                                                    awards us for our e-learning donations.</p>
+
+                                                <p><b> <a className={styles.maryanne} href="https://hu-hu.facebook.com/newtrieref/videos/binaryheart-outstanding-youth-volunteer-awards-video/274212744104600/">
+                                                    Watch the video here!</a></b></p>
+                                            </div>
+
+                                            <img className={styles.scalingimage} src="/day of service.jpg" alt="day of service" />
+
+
+                                            <div className={styles.pressChart}>
+                                                <p className={styles.pressDate}> MAY 19, 2021</p>
+                                                <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/features/2021/05/19/day-of-service-allows-alumni-to-work-on-passion-projects/">
+                                                    BinaryHeart on Day of Service ⮕</a></b></p></h2>
+
+                                                <p> After we moved to a bigger room, volunteers worked to clean, organize,
+                                                    and log devices.</p>
+
+                                            </div>
+
+                                            <img className={styles.scalingimage} src="/covid workstation.jpg" alt="covid workstation" />
+
+
+                                            <div className={styles.pressChart}>
+                                                <p className={styles.pressDate}> OCTOBER 20, 2020</p>
+                                                <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/news/2020/10/23/clubs-get-creative-to-make-service-possible/">
+                                                    Adapting to COVID-19 ⮕</a></b></p></h2>
+
+                                                <p> We implement safety measures, such as socially distant work stations and
+                                                    disinfectant materials, to ensure safe volunteering during COVID.</p>
+
+                                            </div>
+
+                                            <img className={styles.scalingimage} src="/isabella allada.jpg" alt="isabella allada" />
+
+
+                                            <div className={styles.pressChart}>
+                                                <p className={styles.pressDate}> MARCH 13, 2020</p>
+                                                <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/features/2020/03/13/kathrine-johnsons-legacy-inspiring-young-women-to-pursue-stem-careers/">
+                                                    Women in BinaryHeart ⮕</a></b></p></h2>
+
+                                                <p> In an interview with BH members Maryanne Xu and Isabella Allada, the New Trier
+                                                    News discusses Katherine Johnson&lsquo;s legacy for women pursuing STEM.</p>
+
+                                            </div>
+
+
+                                            <img className={styles.scalingimage} src="/abc news.jpg" alt="abc camera crew" />
+
+
+
+                                            <div className={styles.pressChart}>
+                                                <p className={styles.pressDate}> OCTOBER 23, 2018</p>
+                                                <h2><p><b> <a className={styles.maryanne} href="https://abc7chicago.com/new-trier-high-school-after-clubs-student-computer-refurbishment/4512319/">
+                                                    We debut on Abc7 News! ⮕</a></b></p></h2>
+
+                                                <p> Read more for the founders&lsquo; original goals and future hopes for the club. </p>
+
+                                            </div>
+
+
+                                            <img className={styles.scalingimage} src="/origin.jpg" alt="first devices" />
+
+
+
+                                            <div className={styles.pressChart}>
+                                                <p className={styles.pressDate}> AUGUST 24, 2018</p>
+                                                <h2><p><b> <a className={styles.maryanne} href="https://www.chicagotribune.com/suburbs/winnetka/ct-wtk-binary-heart-tl-0830-story.html">
+                                                    Our origin story ⮕</a></b></p></h2>
+
+                                                <p> The Chicago Tribune interviews BinaryHeart&lsquo;s first members on how the club was founded. </p>
+
+                                            </div>
+
+                            </p>
+                        </div>
+
+                </div>
+                </div>
             </main>
             <footer className={styles.footer}>
                 <div className={styles.footertext}>
