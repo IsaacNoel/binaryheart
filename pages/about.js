@@ -36,10 +36,10 @@ export default function Home() {
                                     <MDBNavbarLink href='/press'>Press</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/donate'>Donate</MDBNavbarLink>
+                                    <MDBNavbarLink href='/contact'>Contact</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/contact'>Contact Us</MDBNavbarLink>
+                                    <MDBNavbarLink href='/faqs'>FAQ</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
                                     <MDBNavbarLink href='/about'>About</MDBNavbarLink>

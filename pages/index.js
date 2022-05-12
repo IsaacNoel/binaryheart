@@ -44,7 +44,7 @@ export default function Home() {
               <a
                   className={styles.card}
               >
-                <h2>Contact Us &rarr;</h2>
+                <h2>Contact &rarr;</h2>
                 <p>
                   Want to donate or receive old tech? Get in contact!
                 </p>
