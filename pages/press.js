@@ -83,6 +83,7 @@ export default function Home() {
                     style={{
                         border: "1px solid #f57192",
                         "background-color": "rgb(255, 240, 243)"
+
                     }}
                 >
                     <h3>
@@ -93,26 +94,9 @@ export default function Home() {
                     </p>
 
                 </div>
-                <p className={styles.static_card}
-                   style={{
-                       border: "1px solid #C8F0C8",
-                       "background-color": "rgb(200, 240, 200)"
-                   }}
-                >
-                    <td width="40%">
-                        <img className={styles.scalingimage} src="/service award.png" alt="service award" />
-                    </td>
-                    <p><b> <a className={styles.maryanne} href="https://hu-hu.facebook.com/newtrieref/videos/binaryheart-outstanding-youth-volunteer-awards-video/274212744104600/">
-                        Watch the video here!</a></b></p>
-                <td>
-                    <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/news/2021/05/19/new-trier-club-receives-service-award/">
-                        BinaryHeart Receives Outstanding Youth Service Award! ⮕</a></b></p></h2>
-                    <p> The Volunteer Center, a North Shore non-profit volunteering organization,
-                        awards BinaryHeart for our e-learning donations.</p>
-                </td>
-                </p>
 
-                <div className ={styles.static_card}>
+
+                <div className ={styles.static_card_press}>
                     <p className={styles.description}>
                         <table>
                             <tr>
@@ -143,7 +127,7 @@ export default function Home() {
                                     <div className={styles.pressChart}>
                                         <p className={styles.pressDate}> MAY 19, 2021</p>
                                         <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/features/2021/05/19/day-of-service-allows-alumni-to-work-on-passion-projects/">
-                                            Collecting devices for Day of Service ⮕</a></b></p></h2>
+                                            BinaryHeart on Day of Service ⮕</a></b></p></h2>
 
                                         <p> After we moved to a bigger room, volunteers worked to clean, organize,
                                             and log devices.</p>

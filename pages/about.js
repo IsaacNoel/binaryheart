@@ -64,26 +64,22 @@ export default function Home() {
             <main className={styles.main}>
 
 
-                <h2 className={styles.semititle}>
-                    About Us
-                </h2>
+                <h1 className={styles.pressBig}>
+                    <b>About Us</b>
+                </h1>
 
-                <p className={styles.description}>
-                    BinaryHeart is a student organization whose objective
-                    is to <code className={styles.code}>spread Digital
-                    Access</code>. We collect donations of broken or
-                    used electronic devices and repair them. Through
+                <p className={styles.pressSub}>
+                    BinaryHeart is an after-school nonprofit that aims to <code className={styles.code}>spread Digital
+                    Access</code>. We collect broken or
+                    used electronic devices and repair them afterschool. Through
                     Northwestern Settlement and other partner charities,
-                    the devices are donated to help our less privileged
-                    peers. Our hope is that our work will lift people out
-                    of poverty, make higher education a reality for more
-                    students, and change lives. Check out the <Link href="/press">
-                    press</Link> page to see what we have done!
+                  we re-donate those devices to low-income schools. Check out the <Link href="/press">
+                    press page</Link> to see what we&lsquo;ve done!
                 </p>
 
                 <div className ={styles.static_card}>
                     <h1>
-                        <center>Student Leaders</center>
+                        <b><center>Student Leaders</center></b>
                     </h1>
 
                     <p className={styles.description}>
@@ -151,6 +147,23 @@ export default function Home() {
                             </tr>
                         </table>
                     </p>
+                </div>
+
+                <div
+                    className ={styles.static_card}
+                    style={{
+                        border: "1px solid dodger blue",
+                        "background-color": "dodger blue"
+                    }}
+                >
+                    <h1>
+                        <b><center>Club Sponsors</center></b>
+                    </h1>
+
+                    <p className={styles.description}>
+                        Mrs. Pritchard, Ms. Caruthers, and Mr. Catalano.
+                    </p>
+
                 </div>
 
                 <Link href="/">

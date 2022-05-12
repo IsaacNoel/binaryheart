@@ -20,11 +20,11 @@ export default function Home() {
 
         <main className={styles.main}>
           <h1 className={styles.title}>
-            Welcome to <font color = "#ff0040">Binary</font><font color = "#193961">Heart</font>!
+              <b>Welcome to <font color = "#ff0040">Binary</font><font color = "#193961">Heart</font>!</b>
           </h1>
 
           <p className={styles.description}>
-            BinaryHeart is an after-school nonprofit that repairs donated technology and re-donates those devices to low-income schools.
+            We&lsquo;re an after-school nonprofit that repairs donated technology and re-donates those devices to low-income schools.
             If you are a New Trier student, <Link href="/newmembers"> get involved here</Link>!
 
 
@@ -34,7 +34,7 @@ export default function Home() {
             <Link href="/press">
               <a className={styles.card}>
                 <h2>Press &rarr;</h2>
-                <p>See our press coverage in the news</p>
+                <p>See our latest press coverage</p>
               </a>
             </Link>
 
@@ -46,14 +46,14 @@ export default function Home() {
               >
                 <h2>Contact Us &rarr;</h2>
                 <p>
-                  Want to donate or receive old tech? Get in contact!
+                  Want to donate or receive old tech? Let's talk!
                 </p>
               </a>
             </Link>
 
           <Link href="/faqs">
               <a className={styles.card}>
-                  <h2>FAQ &rarr;</h2>
+                  <h2>FAQs &rarr;</h2>
                   <p>Let us answer some of your questions</p>
               </a>
           </Link>
@@ -61,7 +61,7 @@ export default function Home() {
             <Link href="/about">
               <a className={styles.card}>
                 <h2>About&rarr;</h2>
-                <p>See our mission, what we&lsquo;ve done, and who we are</p>
+                <p>Learn our purpose, what we&lsquo;ve done, and who we are</p>
               </a>
             </Link>
 
