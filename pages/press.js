@@ -100,7 +100,6 @@ export default function Home() {
                     <p className={styles.description}>
                         <table>
                             <tr>
-
                                 <td width="40%">
                                     <img className={styles.scalingimage} src="/service award.png" alt="service award" />
                                 </td>
