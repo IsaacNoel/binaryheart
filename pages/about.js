@@ -14,7 +14,7 @@ import Link from "next/link";
 
 export default function Home() {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="animated">
             <header>
                 <MDBNavbar expand='md' light bgColor="white">
                     <MDBContainer fluid>
@@ -58,32 +58,27 @@ export default function Home() {
                       integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
                       crossOrigin="anonymous"/>
                 <meta name="Description"
-                      content="Author: Isaac Noel, Malachi Noel, Maryanne Xu, Megan Lu, Artharva Metkar"/>
+                      content="Author: Isaac Noel, Malachi Noel, Maryanne Xu, Megan Lu, Atharva Metkar"/>
             </Head>
 
             <main className={styles.main}>
 
+                <h1 className={styles.pressBig}>
+                    <b>About Us</b>
+                </h1>
 
-                <h2 className={styles.semititle}>
-                    About Us
-                </h2>
-
-                <p className={styles.description}>
-                    BinaryHeart is a student organization whose objective
-                    is to <code className={styles.code}>spread Digital
-                    Access</code>. We collect donations of broken or
-                    used electronic devices and repair them. Through
+                <p className={styles.pressSub}>
+                    BinaryHeart is an after-school nonprofit that aims to <code className={styles.code}>spread Digital
+                    Access</code>. We collect broken or
+                    used electronic devices and repair them afterschool. Through
                     Northwestern Settlement and other partner charities,
-                    the devices are donated to help our less privileged
-                    peers. Our hope is that our work will lift people out
-                    of poverty, make higher education a reality for more
-                    students, and change lives. Check out the <Link href="/press">
-                    press</Link> page to see what we have done!
+                  we re-donate those devices to low-income schools. Check out the <Link href="/press">
+                    press page</Link> to see what we&lsquo;ve done!
                 </p>
-
+            <div className={styles.mobilehide}>
                 <div className ={styles.static_card}>
                     <h1>
-                        <center>Student Leaders</center>
+                        <b><center>Student Leaders</center></b>
                     </h1>
 
                     <p className={styles.description}>
@@ -151,6 +146,76 @@ export default function Home() {
                             </tr>
                         </table>
                     </p>
+                </div>
+            </div>
+                <div className={styles.mobileshow}>
+                    <div className ={styles.static_card}>
+                        <h1>
+                            <b><center>Student Leaders</center></b>
+                        </h1>
+
+                        <p className={styles.description}>
+
+                                        <img className={styles.scalingimage} src="/maryanne.jpg" alt="Maryanne" />
+
+                                        <b> Maryanne Xu </b>
+                                        <p> Hi everyone! I&lsquo;m a senior at New Trier High School.
+                                            I volunteered for BinaryHeart for four years.
+                                            During club meetings, I allocate tasks, run club logistics, and work on this website!
+                                            I can hold my breath for 2 hours.</p>
+
+                                        <img className={styles.scalingimage} src="/nicholas.jpg" alt="Nicholas" />
+
+                                        <b> Nicholas Sutherland </b>
+                                        <p>Howdy! I&lsquo;m Nicholas, a senior at New Trier High School,
+                                            and this is my third year at BinaryHeart. I usually end up building shelves,
+                                            organizing screwdrivers, and working on our workspace during club.
+                                            Oh yeah, and I invented the microwave burrito.</p>
+
+                                        <p> photo </p>
+
+                                        <b> Rom Fradkin </b>
+                                        <p>Rom Fradkin (5’ 9’’, 150lbs) is a senior at New Trier High School.
+                                            He&lsquo;s volunteered for BinaryHeart since freshman year. He owns four cows.</p>
+
+                                        <p> photo </p>
+
+                                        <b> Julia Hudson  </b>
+                                        <p>Hey! I&lsquo;m Julia, a sophomore at New Trier High School.
+                                            I&lsquo;ve volunteered for BinaryHeart for two years now.
+                                            When not fixing computers, I work on our website,
+                                            manage our inventory system, and have plans for chapter expansion.
+                                            .</p>
+
+                                        <img className={styles.scalingimage} src="/andrew.jpg" alt="Andrew" />
+
+                                        <b> Andrew Gill </b>
+                                        <p>Hello, I&lsquo;m Andrew! :) I&lsquo;m a senior at New Trier High School,
+                                            and I&lsquo;ve been in the club since my sophomore year.
+                                            I&lsquo;m usually in charge of organization, whether on the task sheet or
+                                            in the closet I spent an entire year setting up.
+                                            By the way, I&lsquo;ve been to the North Pole!
+                                            .</p>
+
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    className ={styles.static_card}
+                    style={{
+                        border: "1px solid dodger blue",
+                        "background-color": "dodger blue"
+                    }}
+                >
+                    <h1>
+                        <b><center>Club Sponsors</center></b>
+                    </h1>
+
+                    <p className={styles.description}>
+                        Mrs. Pritchard, Ms. Caruthers, and Mr. Catalano.
+                    </p>
+
                 </div>
 
                 <Link href="/">

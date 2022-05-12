@@ -14,7 +14,7 @@ import Link from "next/link";
 
 export default function Home() {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="animated">
             <header>
                 <MDBNavbar expand='md' light bgColor="white">
                     <MDBContainer fluid>
@@ -58,7 +58,7 @@ export default function Home() {
                       integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
                       crossOrigin="anonymous"/>
                 <meta name="Description"
-                      content="Author: Isaac Noel, Malachi Noel, Maryanne Xu, Megan Lu, Artharva Metkar"/>
+                      content="Author: Isaac Noel, Malachi Noel, Maryanne Xu, Megan Lu, Atharva Metkar"/>
             </Head>
             <main className={styles.main}>
                 <h2 className={styles.semititle}>

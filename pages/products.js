@@ -14,7 +14,7 @@ import {
 
 export default function Home() {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="animated">
             <header>
                 <MDBNavbar expand='lg' light bgColor='white'>
                     <MDBContainer fluid>

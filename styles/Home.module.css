@@ -23,7 +23,7 @@
 
 .footericons {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
   align-items: right;
   white-space: pre-line;
 }
@@ -72,7 +72,7 @@
 
 .title,
 .description {
-   text-align: center; 
+  text-align: center;
 }
 
 .description {
@@ -87,10 +87,9 @@
 
 .pressChart {
   margin-top: 15%;
-  margin-bottom: 15%;
+  margin-bottom: 11%;
   margin-left: 5%;
-  margin-bottom: 25%;
-  
+
 }
 .centereddesc {
   margin: 4rem 0;
@@ -110,9 +109,19 @@
   font-size: 50px;
 }
 
+.membersBig {
+  font-size: 50px;
+  margin-bottom: 2%;
+}
+
 .pressSub {
   font-size: 25px;
   color: dimgrey;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
 }
 
 .description a {
@@ -153,7 +162,7 @@
   padding: 0.75rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {
@@ -166,7 +175,19 @@
 
 .static_card {
   margin: 2rem 5rem;
-  padding: 1.5rem;
+  padding-top: 2.5%;
+  padding-bottom: 1%;
+  text-align: left;
+  text-decoration: none;
+  border: 1px solid #193961;
+  background-color:#e7f2ff;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.static_card_press {
+  margin: 4.5% 4.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   text-align: left;
   text-decoration: none;
   border: 1px solid #193961;
@@ -177,7 +198,8 @@
 
 .static_card_red {
   margin: 2rem 5rem;
-  padding: 1.5rem;
+  padding-top: 2.5%;
+  padding-bottom: 0.1%;
   text-align: left;
   text-decoration: none;
   border: 1px solid #f57192;
@@ -206,6 +228,7 @@
 .card:focus,
 .card:active {
   color: #0070f3;
+  text-decoration: none;
   border-color: #0070f3;
 }
 
@@ -248,10 +271,33 @@
   margin: 0;
   display: block;
   width: 3%;
-  height: 3%
+  min-height: 22px;
+  height: 3%;
+  min-width: 22px;
+}
+.googleform {
+  width: 100%;
+  max-width:1000px;
+  height:1000px;
+
+}
+.mobileshow{
+  visibility: hidden;
+  height: 0;
+  width: 0;
 }
 
 @media (max-width: 700px) {
+  .mobilehide {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+  .mobileshow {
+    visibility: visible;
+    height: auto;
+    width: auto;
+  }
   .description {
     margin: 4rem 0;
     line-height: 1.5;
@@ -260,8 +306,15 @@
     padding-right: 1rem;
     text-align: left;
   }
+
+  .googleform {
+    width: 100%;
+    max-width:700px;
+    height:700px;
+
+  }
   .static_card {
-    margin: 1rem 1rem;
+    margin: 4.5% 4.5%;
     padding: 1.5rem;
     text-align: left;
     text-decoration: none;
@@ -270,6 +323,8 @@
     border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
   }
+
+
   .indexdescription {
     margin: 4rem 0;
     line-height: 1.5;
@@ -279,15 +334,5 @@
     text-align: left;
 
   }
-}
 
-/*
-@keyframes fade-in-from-bottom {
-  from {opacity: 0}
-  to   {opacity: 1}
 }
-
-fade-in-from-bottom.use {
-  animation: fade-in-from-bottom 2s ease-out;
-}
- */
