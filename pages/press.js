@@ -214,11 +214,7 @@ export default function Home() {
                 </div>
             </div>
 
-                <Link href="/">
-                    <a className={styles.card}>
-                        <h2>Back to the launch page &rarr;</h2>
-                    </a>
-                </Link>
+
 
             </div>
                 <div className={styles.mobileshow}>
@@ -346,7 +342,13 @@ export default function Home() {
 
                 </div>
                 </div>
+                <Link href="/">
+                    <a className={styles.card}>
+                        <h2>Back to the launch page &rarr;</h2>
+                    </a>
+                </Link>
             </main>
+
             <footer className={styles.footer}>
                 <div className={styles.footertext}>
                     <h2><font color = "#ff0040">Binary</font><font color = "#0000FF">Heart</font></h2>
