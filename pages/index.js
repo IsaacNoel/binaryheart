@@ -20,7 +20,7 @@ export default function Home() {
 
         <main className={styles.main}>
           <h1 className={styles.title}>
-            Welcome to <font color = "#ff0040">Binary</font><font color = "#193961">Heart</font>!
+            Welcome to <font color = "#ff0040">Binary</font><font color = "#2F4A70">Heart</font>!
           </h1>
 
           <p className={styles.description}>
