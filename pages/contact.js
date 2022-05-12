@@ -81,6 +81,9 @@ export default function Home() {
                         </a>
                     </Link>
                 </div>
+                <div>
+                <br/>
+                </div>
                 <Link href="/">
                     <a className={styles.card}>
                         <h2>Back to the launch page &rarr;</h2>
