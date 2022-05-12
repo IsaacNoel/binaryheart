@@ -15,7 +15,7 @@ import Link from "next/link"
 export default function Home() {
     return (
 
-        <div className={styles.container} id="animated">
+        <div className={styles.container}>
 
             <header>
                 <MDBNavbar expand='lg' light bgColor='white'>
@@ -63,8 +63,8 @@ export default function Home() {
             </Head>
             <main className={styles.main}>
                 <iframe
-                    src="https://docs.google.com/forms/d/e/1FAIpQLScG1w-t5g9lkYdlXtxsyYcazWpu8GuuzkHM_GtQO9th8WVjPQ/viewform?embedded=true"
-                    width="1000" height="1000" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSedihLOCN2RADsAcCAL43YPAzZsfdzdPdsDFK_aGqGEpMB-aw/viewform?embedded=true"
+                    width="1000" height="1417" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
                 </iframe>
                 <Link href="/">
                     <a className={styles.card}>

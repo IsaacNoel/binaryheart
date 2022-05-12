@@ -61,18 +61,30 @@ export default function Home() {
                       content="Author: Isaac Noel, Malachi Noel, Maryanne Xu, Megan Lu, Atharva Metkar"/>
             </Head>
             <main className={styles.main}>
-
+                <h2 className={styles.semititle}>
+                    Contact Us
+                </h2>
                 <p className={styles.centereddesc}>
-                    Have questions? Reach out at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org</a>!<br/>
-                    Also see: <Link href="/faqs">FAQs</Link>
+                    Email us about questions and donations at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org (Gmail Link)</a>
                 </p>
-                <iframe
-                    src="https://docs.google.com/forms/d/e/1FAIpQLScG1w-t5g9lkYdlXtxsyYcazWpu8GuuzkHM_GtQO9th8WVjPQ/viewform?embedded=true"
-                    className = {styles.googleform}   frameBorder="0" marginHeight="0" marginWidth="0">Loading…
-                </iframe>
-                <p className={styles.container}>
-                    To contact the website developers, find us at our <Link href={"https://github.com/IsaacNoel/binaryheart"}>GitHub page</Link>!
-                </p>
+                <div className={styles.grid}>
+                    <Link href="/donate">
+                        <a className={styles.card}>
+                            <h2>Donate &rarr;</h2>
+                            <p>Help our cause by donating your old devices</p>
+                        </a>
+                    </Link>
+                    <Link href="/request">
+                        <a className={styles.card}>
+                            <h2>Request &rarr;</h2>
+                            <p>How can we help you meet your technology needs?</p>
+                        </a>
+                    </Link>
+                </div>
+                <div>
+                    <br/>
+                    <br/>
+                </div>
                 <Link href="/">
                     <a className={styles.card}>
                         <h2>Back to the launch page &rarr;</h2>
