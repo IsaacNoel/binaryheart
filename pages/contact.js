@@ -64,16 +64,20 @@ export default function Home() {
                 <p className={styles.centereddesc}>
                     Email us about questions and donations at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org (Gmail Link)</a>
                 </p>
-                <Link href="/donate">
-                    <a className={styles.card}>
-                        <h2>Donate &rarr;</h2>
-                    </a>
-                </Link>
-                <Link href="/request">
-                    <a className={styles.card}>
-                        <h2>Request &rarr;</h2>
-                    </a>
-                </Link>
+                <div className={styles.grid}>
+                    <Link href="/donate">
+                        <a className={styles.card}>
+                            <h2>Donate &rarr;</h2>
+                            <p>Help our cause by donating your old devices</p>
+                        </a>
+                    </Link>
+                    <Link href="/request">
+                        <a className={styles.card}>
+                            <h2>Request &rarr;</h2>
+                            <p>How can we help you meet your technology needs?</p>
+                        </a>
+                    </Link>
+                </div>
                 <p className={styles.container}>
                     If you have any questions about the website itself, you can also find the developers at our <a href={"https://github.com/IsaacNoel/binaryheart"}>GitHub page</a>
                 </p>
