@@ -62,11 +62,14 @@ export default function Home() {
             </Head>
             <main className={styles.main}>
                 <p className={styles.centereddesc}>
-                    Email us about questions and donations at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org (Gmail Link)</a><br/>
-                    Also see: <Link href="/faqs">Frequently asked questions</Link>
+                    Email us about questions and donations at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org (Gmail Link)</a>
                 </p>
                 <iframe
                     src="https://docs.google.com/forms/d/e/1FAIpQLScG1w-t5g9lkYdlXtxsyYcazWpu8GuuzkHM_GtQO9th8WVjPQ/viewform?embedded=true"
+                    width="1000" height="1000" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
+                </iframe>
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSedihLOCN2RADsAcCAL43YPAzZsfdzdPdsDFK_aGqGEpMB-aw/viewform?embedded=true"
                     width="1000" height="1000" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
                 </iframe>
                 <p className={styles.container}>
