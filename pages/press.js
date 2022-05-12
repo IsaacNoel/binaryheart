@@ -116,25 +116,6 @@ export default function Home() {
                     <p className={styles.description}>
                         <table>
                             <tr>
-
-                                <td width="40%">
-                                    <img className={styles.scalingimage} src="/service award.png" alt="service award" />
-                                </td>
-                                <td>
-                                    <div className={styles.pressChart}>
-                                        <p className={styles.pressDate}> MAY 19, 2021</p>
-                                    <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/news/2021/05/19/new-trier-club-receives-service-award/">
-                                        BinaryHeart receives Outstanding Youth Service Award! ⮕</a></b></p></h2>
-
-                                    <p> The Volunteer Center, a North Shore non-profit volunteering organization,
-                                        awards us for our e-learning donations.</p>
-
-                                    <p><b> <a className={styles.maryanne} href="https://hu-hu.facebook.com/newtrieref/videos/binaryheart-outstanding-youth-volunteer-awards-video/274212744104600/">
-                                        Watch the video here!</a></b></p>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
                                 <td width="40%">
                                     <img className={styles.scalingimage} src="/day of service.jpg" alt="day of service" />
                                 </td>
