@@ -60,7 +60,7 @@ export default function Home() {
 
             <Link href="/about">
               <a className={styles.card}>
-                <h2>About&rarr;</h2>
+                <h2>About &rarr;</h2>
                 <p>See our mission, what we&lsquo;ve done, and who we are</p>
               </a>
             </Link>
