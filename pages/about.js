@@ -228,7 +228,7 @@ export default function Home() {
 
             <footer className={styles.footer}>
                 <div className={styles.footertext}>
-                    <h2><font color = "#ff0040">Binary</font><font color = "#0000FF">Heart</font></h2>
+                    <h2><font color = "#ff0040">Binary</font><font color = "#2F4A70">Heart</font></h2>
                     <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org" target="_blank" rel="noreferrer noopener">contact@binaryheart.org</a></p>
                     <p><a href="tel:+1-847-784-2363">847.784.2363</a></p>
                 </div>

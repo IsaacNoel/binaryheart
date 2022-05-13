@@ -61,11 +61,11 @@ export default function Home() {
                       content="Author: Isaac Noel, Malachi Noel, Maryanne Xu, Megan Lu, Atharva Metkar"/>
             </Head>
             <main className={styles.main}>
-                <h2 className={styles.semititle}>
-                    Contact Us
-                </h2>
+                <h1>
+                    <b>Contact Us</b>
+                </h1>
                 <p className={styles.centereddesc}>
-                    Email us about questions and donations at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org (Gmail Link)</a>
+                    Email us about questions and donations at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org">contact@binaryheart.org</a>
                 </p>
                 <div className={styles.grid}>
                     <Link href="/donate">
