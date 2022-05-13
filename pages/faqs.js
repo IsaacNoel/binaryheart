@@ -88,7 +88,7 @@ export default function Home(){
                             <tr>
                                 <td>
                                     <b>How do I donate?</b>
-                                    <p>Head over to our <Link href="/contact"> donate page</Link>! We&lsquo;ll talk and schedule a drop off date.</p>
+                                    <p>Head over to our <Link href="/donate"> donate page</Link>! We&lsquo;ll talk and schedule a drop off date.</p>
                                 <br/>
                                 </td>
                             </tr>
