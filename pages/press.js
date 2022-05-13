@@ -186,7 +186,7 @@ export default function Home() {
                                     <div className={styles.pressChart}>
                                         <p className={styles.pressDate}> OCTOBER 23, 2018</p>
                                         <h2><p><b> <a className={styles.maryanne} href="https://abc7chicago.com/new-trier-high-school-after-clubs-student-computer-refurbishment/4512319/">
-                                            We debut on Abc7 News! ⮕</a></b></p></h2>
+                                            Our debut on Abc7 News! ⮕</a></b></p></h2>
 
                                         <p> Read more for the founders&lsquo; original goals and future hopes for the club. </p>
 
@@ -321,7 +321,7 @@ export default function Home() {
                                             <div className={styles.pressChart}>
                                                 <p className={styles.pressDate}> OCTOBER 23, 2018</p>
                                                 <h2><p><b> <a className={styles.maryanne} href="https://abc7chicago.com/new-trier-high-school-after-clubs-student-computer-refurbishment/4512319/">
-                                                    We debut on Abc7 News! ⮕</a></b></p></h2>
+                                                    Our debut on Abc7 News! ⮕</a></b></p></h2>
 
                                                 <p> Read more for the founders&lsquo; original goals and future hopes for the club. </p>
 
@@ -345,12 +345,18 @@ export default function Home() {
                         </div>
 
                 </div>
+
                 </div>
+                <div className={styles.launchlink}>
                 <Link href="/">
                     <a className={styles.card}>
                         <h2>Back to the launch page &rarr;</h2>
                     </a>
                 </Link>
+                </div>
+
+
+
             </main>
 
             <footer className={styles.footer}>

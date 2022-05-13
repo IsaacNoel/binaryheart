@@ -70,11 +70,11 @@ export default function Home() {
             <main className={styles.main}>
                 <iframe
                     src="https://docs.google.com/forms/d/e/1FAIpQLScG1w-t5g9lkYdlXtxsyYcazWpu8GuuzkHM_GtQO9th8WVjPQ/viewform?embedded=true"
-                    width="1000" height="1200" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
+                    className = {styles.googleform} height = "1200" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
                 </iframe>
-                <Link href="/">
+                <Link href="/contact">
                     <a className={styles.card}>
-                        <h2>Back to the launch page &rarr;</h2>
+                        <h2>Back to the contact page &rarr;</h2>
                     </a>
                 </Link>
             </main>
