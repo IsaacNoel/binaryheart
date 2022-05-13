@@ -53,7 +53,7 @@ export default function Home() {
 
                     <Link href="/faqs">
                         <a className={styles.card}>
-                            <h2>FAQ &rarr;</h2>
+                            <h2>FAQs &rarr;</h2>
                             <p>Let us answer some of your questions</p>
                         </a>
                     </Link>
