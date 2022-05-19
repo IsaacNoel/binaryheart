@@ -113,7 +113,7 @@ export default function Home() {
                             </tr>
                             <tr>
                                 <td width="25%">
-                                    <p> photo </p>
+                                    <img className={styles.scalingimage} src="/rom.png" alt="rom" />
                                 </td>
                                 <td>
                                     <b> Rom Fradkin </b>
@@ -123,7 +123,7 @@ export default function Home() {
                             </tr>
                             <tr>
                                 <td width="25%">
-                                    <p> photo </p>
+                                    <img className={styles.scalingimage} src="/julia.png" alt="julia" />
                                 </td>
                                 <td>
                                     <b> Julia Hudson  </b>
@@ -176,13 +176,13 @@ export default function Home() {
                                             organizing screwdrivers, and working on our workspace during club.
                                             Oh yeah, and I invented the microwave burrito.</p>
 
-                                        <p> photo </p>
+                                        <img className={styles.scalingimage} src="/rom.png" alt="rom" />
 
                                         <b> Rom Fradkin </b>
                                         <p>Rom Fradkin (5’ 9’’, 150lbs) is a senior at New Trier High School.
                                             He&lsquo;s volunteered for BinaryHeart since freshman year. He owns four cows.</p>
 
-                                        <p> photo </p>
+                                        <p> <img className={styles.scalingimage} src="/julia.png" alt="julia"/> </p>
 
                                         <b> Julia Hudson  </b>
                                         <p>Hey! I&lsquo;m Julia, a sophomore at New Trier High School.
