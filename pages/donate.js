@@ -76,6 +76,7 @@ export default function Home() {
                     <a className={styles.card}>
                         <h2>Back to the contact page &rarr;</h2>
                     </a>
+                </Link>
                     </footer className={styles.footer}>
                     <div className={styles.footertext}>
                         <h2><font color = "#ff0040">Binary</font><font color = "#2F4A70">Heart</font></h2>
@@ -94,7 +95,6 @@ export default function Home() {
                         <Link href="tel:+1-847-784-2363"><img title="Phone" className={styles.scalingimageicon} src="/phone.png" /></Link>
                     </div>
                 </footer>
-                </Link>
             </main>
 
 
