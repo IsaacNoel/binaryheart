@@ -16,7 +16,7 @@ export default function Home() {
     return (
         <div className={styles.container} id="animated">
             <header>
-                <MDBNavbar expand='md' light bgColor="white">
+                <MDBNavbar expand='md' light bgColor='white'>
                     <MDBContainer fluid>
                         <MDBNavbarToggler
                             aria-controls='navbarExample01'
@@ -41,9 +41,6 @@ export default function Home() {
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
                                     <MDBNavbarLink href='/faqs'>FAQs</MDBNavbarLink>
-                                </MDBNavbarItem>
-                                <MDBNavbarItem>
-                                    <MDBNavbarLink href='/products'>Products</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
                                     <MDBNavbarLink href='/newmembers'>New Members</MDBNavbarLink>
