@@ -18,7 +18,7 @@ export default function Home() {
         <div className={styles.container}>
 
             <header>
-                <MDBNavbar expand='lg' light bgColor='white'>
+                <MDBNavbar expand='md' light bgColor="white">
                     <MDBContainer fluid>
                         <MDBNavbarToggler
                             aria-controls='navbarExample01'
@@ -29,24 +29,24 @@ export default function Home() {
                         </MDBNavbarToggler>
                         <div className='collapse navbar-collapse headerdiv' id='navbarExample01'>
                             <MDBNavbarNav right className='mb-2 mb-lg-0'>
-                                <MDBNavbarItem active>
-                                    <MDBNavbarLink aria-current='page' href='/'>
-                                        Home
-                                    </MDBNavbarLink>
+                                <MDBNavbarItem>
+                                    <MDBNavbarLink href='/'>Home</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
                                     <MDBNavbarLink href='/press'>Press</MDBNavbarLink>
                                 </MDBNavbarItem>
-                                <MDBNavbarItem>
-                                    <MDBNavbarLink href='/contact'>Contact</MDBNavbarLink>
-                                </MDBNavbarItem>
-                                <MDBNavbarItem>
-                                    <MDBNavbarLink href='/faqs'>FAQ</MDBNavbarLink>
+                                <MDBNavbarItem active>
+                                    <MDBNavbarLink aria-current='page' href='/contact'>Contact Us</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
                                     <MDBNavbarLink href='/about'>About</MDBNavbarLink>
                                 </MDBNavbarItem>
-
+                                <MDBNavbarItem>
+                                    <MDBNavbarLink href='/faqs'>FAQs</MDBNavbarLink>
+                                </MDBNavbarItem>
+                                <MDBNavbarItem>
+                                    <MDBNavbarLink href='/newmembers'>New Members</MDBNavbarLink>
+                                </MDBNavbarItem>
                             </MDBNavbarNav>
                         </div>
                     </MDBContainer>
@@ -64,11 +64,11 @@ export default function Home() {
             <main className={styles.main}>
                 <iframe
                     src="https://docs.google.com/forms/d/e/1FAIpQLSedihLOCN2RADsAcCAL43YPAzZsfdzdPdsDFK_aGqGEpMB-aw/viewform?embedded=true"
-                    className = {styles.googleform} height="1700" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
+                    width="1000" height="1780" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
                 </iframe>
-                <Link href="/contact">
+                <Link href="/">
                     <a className={styles.card}>
-                        <h2>Back to the contact page &rarr;</h2>
+                        <h2>Back to the launch page &rarr;</h2>
                     </a>
                 </Link>
             </main>
