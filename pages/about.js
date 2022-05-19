@@ -215,17 +215,17 @@ export default function Home() {
 
                     <p className={styles.description}>
 
-                        <img className={styles.scalingimage} src="/julia.jpg" alt="Mrs. Pritchard" />
+                        <img className={styles.scalingimage} src="/mrs. pritchard.png" alt="Mrs. Pritchard" />
 
                         <b> Mrs. Pritchard </b>
                         <p> </p>
 
-                        <img className={styles.scalingimage} src="/julia.jpg" alt="Ms. Caruthers" />
+                        <img className={styles.scalingimage} src="/ms. caruthers.png" alt="Ms. Caruthers" />
 
                         <b> Ms. Caruthers </b>
                         <p> </p>
 
-                        <img className={styles.scalingimage} src="/Mr. Catalano.jpg" alt="Mr. Catalano" />
+                        <img className={styles.scalingimage} src="/mr. catalano.jpg" alt="Mr. Catalano" />
 
                         <b> Mr. Catalano </b>
                         <p> </p>
