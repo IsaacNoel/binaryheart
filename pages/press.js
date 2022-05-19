@@ -254,7 +254,7 @@ export default function Home() {
                         </div>
 
 
-                        <div className ={styles.static_card_press}>
+                        <div className ={styles.static_card}>
                             <p className={styles.description}>
 
                                             <img className={styles.scalingimage} src="/service award.png" alt="service award" />
