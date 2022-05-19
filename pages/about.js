@@ -214,7 +214,21 @@ export default function Home() {
                     </h1>
 
                     <p className={styles.description}>
-                        Mrs. Pritchard, Ms. Caruthers, and Mr. Catalano.
+
+                        <img className={styles.scalingimage} src="/julia.jpg" alt="Mrs. Pritchard" />
+
+                        <b> Mrs. Pritchard </b>
+                        <p> </p>
+
+                        <img className={styles.scalingimage} src="/julia.jpg" alt="Ms. Caruthers" />
+
+                        <b> Ms. Caruthers </b>
+                        <p> </p>
+
+                        <img className={styles.scalingimage} src="/Mr. Catalano.jpg" alt="Mr. Catalano" />
+
+                        <b> Mr. Catalano </b>
+                        <p> </p>
                     </p>
 
                 </div>
