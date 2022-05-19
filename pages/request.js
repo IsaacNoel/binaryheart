@@ -18,7 +18,7 @@ export default function Home() {
         <div className={styles.container}>
 
             <header>
-                <MDBNavbar expand='md' light bgColor="white">
+                <MDBNavbar expand='md' light bgColor='white'>
                     <MDBContainer fluid>
                         <MDBNavbarToggler
                             aria-controls='navbarExample01'
