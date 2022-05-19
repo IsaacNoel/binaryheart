@@ -77,7 +77,7 @@ export default function Home() {
                         <h2>Back to the contact page &rarr;</h2>
                     </a>
                 </Link>
-                    </footer className={styles.footer}>
+                </footer className={styles.footer}>
                     <div className={styles.footertext}>
                         <h2><font color = "#ff0040">Binary</font><font color = "#2F4A70">Heart</font></h2>
                         <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org" target="_blank" rel="noreferrer noopener">contact@binaryheart.org</a></p>
