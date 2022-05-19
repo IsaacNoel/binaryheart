@@ -44,9 +44,6 @@ export default function Home(){
                                 <MDBNavbarItem>
                                     <MDBNavbarLink href='/faqs'>FAQs</MDBNavbarLink>
                                 </MDBNavbarItem>
-                                <MDBNavbarItem>
-                                    <MDBNavbarLink href='/products'>Products</MDBNavbarLink>
-                                </MDBNavbarItem>
                                 <MDBNavbarItem active>
                                     <MDBNavbarLink aria-current='page' href='/newmembers'>New Members</MDBNavbarLink>
                                 </MDBNavbarItem>
