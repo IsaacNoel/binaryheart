@@ -70,7 +70,7 @@ export default function Home() {
 
                 <p className={styles.pressSub}>
                     BinaryHeart is an after-school nonprofit that aims to <code className={styles.code}>spread Digital
-                    Access</code>. We collect broken or
+                    Access.</code> We collect broken or
                     used electronic devices and repair them afterschool. Through
                     Northwestern Settlement and other partner charities,
                   we re-donate those devices to low-income schools. Check out the <Link href="/press">

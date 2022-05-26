@@ -76,7 +76,7 @@ export default function Home() {
                     <br/>
 
                     Follow along our journey to<code className={styles.code}>spread digital
-                    access</code>.
+                    access.</code>
 
                     Check out our latest news updates here!
                 </p>
@@ -110,7 +110,7 @@ export default function Home() {
                                     <div className={styles.pressChart}>
                                         <p className={styles.pressDate}> MAY 19, 2021</p>
                                     <h2><p><b> <a className={styles.maryanne} href="https://newtriernews.org/news/2021/05/19/new-trier-club-receives-service-award/">
-                                        BinaryHeart receives Outstanding Youth Service Award! ⮕</a></b></p></h2>
+                                        BinaryHeart receives Outstanding Youth Service Award⮕</a></b></p></h2>
 
                                     <p> The Volunteer Center, a North Shore non-profit volunteering organization,
                                         awards us for our e-learning donations.</p>
