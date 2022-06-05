@@ -1,6 +1,6 @@
 # Binary Heart Website :D
 
-Hello! This is the github page for [binaryheart.org](binaryheart.org). For BH'ers who want to make contributions, 
+Hello! This is the github page for [binaryheart.org](https://www.binaryheart.org). For BH'ers who want to make contributions, 
 show up to the 5th floor of the Winnetka campus on Thursday so we can add you to the repo. Below is the original
 readme that might help with development.
 
